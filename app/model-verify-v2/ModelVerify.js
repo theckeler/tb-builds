@@ -8,7 +8,7 @@ import Backordered from "@/i/Backordered";
 import X from "@/i/X";
 import Fits from "./Fits";
 
-export default function ModelVerifyBlock({ className }) {
+export default function ModelVerifyBlock({ className, id = null }) {
 	const [verify, setVerify] = useState(false);
 	const [loadingCheck, setLoadingCheck] = useState(false);
 	const [modelNum, setModelNum] = useState(0);
@@ -25,10 +25,10 @@ export default function ModelVerifyBlock({ className }) {
 	}, [loadingCheck]);
 
 	return (
-		<div className={`modify-verify ${className}`}>
+		<div className={`modify-verify ${className}`} id={id}>
 			<ul className="list-unstyled d-flex flex-column flex-xl-row">
 				<li className="col-xl-5 pl-0">
-					<div className="pr-1 h-100 d-flex flex-column justify-content-xl-center align-items-xl-center border-xl-right">
+					<div className="pr-1 h-100 d-flex flex-column justify-content-center align-items-center border-xl-right">
 						<div
 							className="mb-1"
 							itemProp="offers"
@@ -44,13 +44,9 @@ export default function ModelVerifyBlock({ className }) {
 							</span>
 						</div>
 
-						<div className="w-100">
-							<hr className="my-1" />
-						</div>
-
-						<ul className="list-unstyled d-flex align-items-center justify-content-center">
-							<li className="col-3 px-0">
-								<Backordered fill="red" />
+						<ul className="list-unstyled d-flex align-items-center">
+							<li className="px-0" style={{ maxWidth: "60px" }}>
+								<Backordered fill="red" style={{ maxWidth: "60px" }} />
 								{/* <InStock fill="#c00" /> */}
 							</li>
 							<li
@@ -136,11 +132,15 @@ export default function ModelVerifyBlock({ className }) {
 									e.preventDefault();
 									setLoadingCheck(true);
 
+									const containerID = document.querySelector(`#${id}`);
+									// console.log(containerID);
+
 									const modelVerified =
-										document.querySelector("#model-verified");
-									const modelError = document.querySelector("#model-error");
-									const modelLink = document.querySelector("#model-find-link");
-									const modelInput = document.querySelector(
+										containerID.querySelector("#model-verified");
+									const modelError = containerID.querySelector("#model-error");
+									const modelLink =
+										containerID.querySelector("#model-find-link");
+									const modelInput = containerID.querySelector(
 										"#model-verify-input"
 									);
 									setModelNum(modelInput.value);
@@ -151,10 +151,10 @@ export default function ModelVerifyBlock({ className }) {
 										modelError.classList.add("d-none");
 
 										setTimeout(() => {
-											document
+											containerID
 												.querySelector("#model-input")
 												.classList.add("d-none");
-											document
+											containerID
 												.querySelector("#model-input-result")
 												.classList.remove("d-none");
 										}, 1500);
@@ -194,7 +194,12 @@ export default function ModelVerifyBlock({ className }) {
 						modelNum={modelNum}
 						setModelNum={setModelNum}
 						setVerify={setVerify}
+						id={id}
 					/>
+				</li>
+
+				<li className="d-sm-none">
+					<hr />
 				</li>
 			</ul>
 		</div>

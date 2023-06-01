@@ -53,21 +53,21 @@ export default function ModelVerifyV2() {
 									</div>
 								</div>
 								{/* Prices */}
-								<div className="prices">
-									<div className="price">
-										<span>
-											<meta itemProp="priceCurrency" content="USD" />
-											<span className="sales">
-												<span
-													className="value"
-													itemProp="price"
-													content="116.86">
-													$116.86
-												</span>
-											</span>
-										</span>
-									</div>
-								</div>
+								{/* 
+							///
+							//////////
+							VERIFY ADD
+							//////////
+							///
+							*/}
+								<ModelVerifyBlock id="verify-1" className="mt-2" />
+								{/* 
+							///
+							//////////
+							VERIFY ADD
+							//////////
+							///
+							*/}
 							</div>
 						</div>
 					</div>
@@ -548,7 +548,7 @@ export default function ModelVerifyV2() {
 							//////////
 							///
 							*/}
-							<ModelVerifyBlock className="mt-2" />
+							<ModelVerifyBlock id="verify-2" className="mt-2" />
 							{/* 
 							///
 							//////////

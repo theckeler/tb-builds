@@ -1,5 +1,4 @@
 "use client";
-import { useState, useEffect } from "react";
 
 import Check from "@/i/Check";
 import X from "@/i/X";
@@ -10,9 +9,8 @@ export default function ModelVerifyBlock({
 	setVerify,
 	className,
 	fits,
+	id,
 }) {
-	console.log(modelNum);
-
 	return (
 		<div className="list-unstyled d-flex align-items-center">
 			<div
@@ -31,7 +29,7 @@ export default function ModelVerifyBlock({
 			</div>
 
 			<div
-				className="p-1 pl-3 ml-n2 position-relative"
+				className="p-1 pl-3 ml-n2 position-relative w-100"
 				style={{ background: "#e8e8e8", zIndex: 0 }}>
 				<div className="text-center">
 					<div
@@ -49,9 +47,12 @@ export default function ModelVerifyBlock({
 						className="border-0 bg-transparent"
 						style={{ fontSize: "11px" }}
 						onClick={(e) => {
+							const containerID = document.querySelector(`#${id}`);
 							setModelNum(0);
-							document.querySelector("#model-input").classList.remove("d-none");
-							document
+							containerID
+								.querySelector("#model-input")
+								.classList.remove("d-none");
+							containerID
 								.querySelector("#model-input-result")
 								.classList.add("d-none");
 							setVerify(false);
