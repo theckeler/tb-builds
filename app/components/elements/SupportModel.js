@@ -1,4 +1,4 @@
-import Button from "../elements/Button";
+import Button from "./Button";
 
 const SupportModel = ({ title, sub, addClass, addStyle }) => {
 	return (

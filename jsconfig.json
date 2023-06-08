@@ -3,9 +3,9 @@
 		"baseUrl": ".",
 		"paths": {
 			"@/*": ["./*"],
-			"@/c/*": ["./components/*"],
+			"@/c/*": ["app/components/*"],
 			"@/t/*": ["./templates/*"],
-			"@/i/*": ["./components/icons/*"],
+			"@/i/*": ["app/components/icons/*"],
 			"@/scss/*": ["./scss/*"]
 		}
 	},

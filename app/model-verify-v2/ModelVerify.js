@@ -2,10 +2,10 @@
 import { useState, useEffect } from "react";
 
 import "@/scss/model-verify.scss";
-import InStock from "@/i/InStock";
-import Check from "@/i/Check";
-import Backordered from "@/i/Backordered";
-import X from "@/i/X";
+import InStock from "@/app/components/icons/InStock";
+import Check from "@/app/components/icons/Check";
+import Backordered from "@/app/components/icons/Backordered";
+import X from "@/app/components/icons/X";
 import Fits from "./Fits";
 
 export default function ModelVerifyBlock({ className, id = null }) {
