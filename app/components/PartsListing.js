@@ -1139,7 +1139,7 @@ const PartsListing = () => {
 																			className="icon"
 																			data-toggle="tooltip"
 																			title=""
-																			data-original-title="Manufacturer’s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
+																			data-original-title="Manufacturer&rsquo;s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
 																	</span>
 																</span>
 															</span>
@@ -1271,7 +1271,7 @@ const PartsListing = () => {
 																			className="icon"
 																			data-toggle="tooltip"
 																			title=""
-																			data-original-title="Manufacturer’s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
+																			data-original-title="Manufacturer&rsquo;s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
 																	</span>
 																</span>
 															</span>
@@ -1394,7 +1394,7 @@ const PartsListing = () => {
 																			className="icon"
 																			data-toggle="tooltip"
 																			title=""
-																			data-original-title="Manufacturer’s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
+																			data-original-title="Manufacturer&rsquo;s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
 																	</span>
 																</span>
 															</span>
@@ -1527,7 +1527,7 @@ const PartsListing = () => {
 																			className="icon"
 																			data-toggle="tooltip"
 																			title=""
-																			data-original-title="Manufacturer’s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
+																			data-original-title="Manufacturer&rsquo;s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
 																	</span>
 																</span>
 															</span>
@@ -1648,7 +1648,7 @@ const PartsListing = () => {
 																			className="icon"
 																			data-toggle="tooltip"
 																			title=""
-																			data-original-title="Manufacturer’s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
+																			data-original-title="Manufacturer&rsquo;s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
 																	</span>
 																</span>
 															</span>
@@ -1780,7 +1780,7 @@ const PartsListing = () => {
 																			className="icon"
 																			data-toggle="tooltip"
 																			title=""
-																			data-original-title="Manufacturer’s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
+																			data-original-title="Manufacturer&rsquo;s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
 																	</span>
 																</span>
 															</span>
@@ -1903,7 +1903,7 @@ const PartsListing = () => {
 																			className="icon"
 																			data-toggle="tooltip"
 																			title=""
-																			data-original-title="Manufacturer’s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
+																			data-original-title="Manufacturer&rsquo;s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
 																	</span>
 																</span>
 															</span>
@@ -2026,7 +2026,7 @@ const PartsListing = () => {
 																			className="icon"
 																			data-toggle="tooltip"
 																			title=""
-																			data-original-title="Manufacturer’s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
+																			data-original-title="Manufacturer&rsquo;s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
 																	</span>
 																</span>
 															</span>
@@ -2149,7 +2149,7 @@ const PartsListing = () => {
 																			className="icon"
 																			data-toggle="tooltip"
 																			title=""
-																			data-original-title="Manufacturer’s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
+																			data-original-title="Manufacturer&rsquo;s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
 																	</span>
 																</span>
 															</span>
@@ -2281,7 +2281,7 @@ const PartsListing = () => {
 																			className="icon"
 																			data-toggle="tooltip"
 																			title=""
-																			data-original-title="Manufacturer’s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
+																			data-original-title="Manufacturer&rsquo;s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
 																	</span>
 																</span>
 															</span>
@@ -2402,7 +2402,7 @@ const PartsListing = () => {
 																			className="icon"
 																			data-toggle="tooltip"
 																			title=""
-																			data-original-title="Manufacturer’s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
+																			data-original-title="Manufacturer&rsquo;s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
 																	</span>
 																</span>
 															</span>
@@ -2530,7 +2530,7 @@ const PartsListing = () => {
 																			className="icon"
 																			data-toggle="tooltip"
 																			title=""
-																			data-original-title="Manufacturer’s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
+																			data-original-title="Manufacturer&rsquo;s buy online price. Taxes are additional and vary by location. Freight, setup, delivery, PDI, and other dealer specific charges are not included in the pricing and vary by dealer. Prices shown are in U.S dollars and valid only in the United States."></span>
 																	</span>
 																</span>
 															</span>

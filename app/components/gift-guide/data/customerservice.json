@@ -53,7 +53,7 @@
 			},
 			{
 				"img": "iconManuals",
-				"copy": "Use your model number to download your Operator’s Manual",
+				"copy": "Use your model number to download your Operator&rsquo;s Manual",
 				"url": "https://www.troybilt.com/en_US/operatorsmanuals",
 				"button": {
 					"copy": "Find manuals"
@@ -123,7 +123,7 @@
 		]
 	},
 	"section7": {
-		"h2": "Didn’t Find What You Were Looking For?",
+		"h2": "Didn&rsquo;t Find What You Were Looking For?",
 		"copy": "Our team is available between 8:30AM - 5:30PM ET, Monday-Friday."
 	}
 }

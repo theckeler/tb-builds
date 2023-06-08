@@ -87,11 +87,12 @@ const Warranty = () => {
 									<img src="https://mtdproducts.secure.force.com/ProductRegistration/resource/1619086108000/CmsTemp/ProductRegistration/img/cub-cadet-US-model-plate.jpg" />
 								</div>
 								<div className="col-6">
-									Your machine’s serial number is essential to establishing
-									extended warranty eligibility status for your outdoor power
-									equipment. The serial number is eleven characters printed on
-									the left side of the Product Identification Label. Characters
-									can include numbers, letters or hyphens.
+									Your machine&rsquo;s serial number is essential to
+									establishing extended warranty eligibility status for your
+									outdoor power equipment. The serial number is eleven
+									characters printed on the left side of the Product
+									Identification Label. Characters can include numbers, letters
+									or hyphens.
 								</div>
 							</div>
 						</div>

@@ -4,7 +4,7 @@ const HowTos = () => {
 			<div className="wrapper">
 				<ul className="list-unstyled d-flex flex-column flex-md-row align-items-center px-3">
 					<li className="">
-						<h2 className="text-center">How To’s &amp; Maintenance</h2>
+						<h2 className="text-center">How To&rsquo;s &amp; Maintenance</h2>
 					</li>
 					<li className="ml-2">
 						<a className="d-block text-center">
