@@ -3,8 +3,8 @@
 export default function NotFit() {
 	return (
 		<div className="part-fitment-wrapper pdp text-center not-fit">
-			<div className="part-fitment-icon pdp not-fit " />
-			<h6 className="does-not-fit-title mb-0">
+			<div className="part-fitment-icon pdp not-fit w-100 mb-1 mb-md-0" />
+			<h6 className="does-not-fit-title mb-0 ">
 				<div className="content-asset">Will NOT Fit</div>
 			</h6>
 			<div className="text-center disclaimer">

@@ -18,33 +18,37 @@ export default function ModelVerifyV2() {
 			/>
 
 			<div
-				className="position-fixed p-2 text-center text-white"
+				className="position-fixed p-1 p-lg-4 text-center text-white"
 				style={{
 					right: "0",
 					top: "0",
 					zIndex: "100001",
 					backgroundColor: "green",
+					maxWidth: "300px",
 				}}>
 				<p className="mb-0 ">
 					<strong>Note:</strong> This is only to toggle the stock & results.
 				</p>
 				<div>
 					<button
+						className="w-100 mb-1"
 						onClick={() => {
 							setInStockCheck(!inStockCheck);
 						}}>
 						Toggle In-Stock/Backordered
 					</button>
 				</div>
-				<div>
+				<div className="d-flex flex-column">
 					Fit:
 					<button
+						className="w-100 mb-1"
 						onClick={() => {
 							setFit(false);
 						}}>
 						Toggle Default
 					</button>
 					<button
+						className="w-100 mb-1"
 						onClick={() => {
 							setFit("not");
 						}}>
