@@ -20,7 +20,7 @@ export default function ModelVerify({ fit, inStockCheck }) {
 					{inStockCheck ? <InStock /> : <Backorder />}
 				</div>
 			</div>
-			<div className="border-top border-xl-top-0 mt-2 mt-sm-0 pt-2">
+			<div className="border-top border-xl-top-0 mt-2 mt-sm-0 pt-2 pt-md-0">
 				{(() => {
 					switch (fit) {
 						case "fits":

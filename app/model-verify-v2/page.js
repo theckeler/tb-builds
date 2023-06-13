@@ -24,10 +24,12 @@ export default function ModelVerifyV2() {
 					top: "0",
 					zIndex: "100001",
 					backgroundColor: "green",
-					maxWidth: "300px",
+					maxWidth: "240px",
+					fontSize: "0.8em",
 				}}>
 				<p className="mb-0 ">
-					<strong>Note:</strong> This is only to toggle the stock & results.
+					<strong>Note:</strong> This is only to toggle the stock & results
+					only.
 				</p>
 				<div>
 					<button
