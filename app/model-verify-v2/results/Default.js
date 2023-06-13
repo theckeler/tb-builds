@@ -3,7 +3,7 @@
 export default function InStock() {
 	return (
 		<div className="part-fitment-wrapper pdp text-center">
-			<div className="part-fitment-icon pdp my-2 w-100" />
+			<div className="part-fitment-icon pdp mb-2 mb-md-0 w-100" />
 			<h6>
 				<div className="content-asset" style={{ fontSize: "0.9em" }}>
 					Have a Model Number?
