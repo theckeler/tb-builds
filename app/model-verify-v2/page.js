@@ -1,7 +1,11 @@
+"use client";
+import { useState, useEffect } from "react";
 import ModelVerifyBlock from "./ModelVerify";
-import Financing from "./Financing";
 
 export default function ModelVerifyV2() {
+	const [fit, setFit] = useState(false);
+	const [inStockCheck, setInStockCheck] = useState(true);
+
 	return (
 		<div
 			className="container-fluid product-detail product-wrapper"
@@ -12,6 +16,49 @@ export default function ModelVerifyV2() {
 				rel="stylesheet"
 				href="https://display.ugc.bazaarvoice.com/static/TroyBilt/main_site/167/20314/en_US/stylesheets/screen.css"
 			/>
+
+			<div
+				className="position-fixed p-2 text-center text-white"
+				style={{
+					right: "0",
+					top: "0",
+					zIndex: "100001",
+					backgroundColor: "green",
+				}}>
+				<p className="mb-0 ">
+					<strong>Note:</strong> This is only to toggle the stock & results.
+				</p>
+				<div>
+					<button
+						onClick={() => {
+							setInStockCheck(!inStockCheck);
+						}}>
+						Toggle In-Stock/Backordered
+					</button>
+				</div>
+				<div>
+					Fit:
+					<button
+						onClick={() => {
+							setFit(false);
+						}}>
+						Toggle Default
+					</button>
+					<button
+						onClick={() => {
+							setFit("not");
+						}}>
+						Toggle Not Fits
+					</button>
+					<button
+						onClick={() => {
+							setFit("fits");
+						}}>
+						Toggle Fits
+					</button>
+				</div>
+			</div>
+
 			<div className="product-info container no-container-gutters-lg-down">
 				<div className="row">
 					<div className="col-12">
@@ -1223,6 +1270,22 @@ export default function ModelVerifyV2() {
 							{/* Applicable Promotions */}
 							<div className="promotions"></div>
 							{/* Prices */}
+							<div className="prices">
+								<div
+									className="price"
+									itemProp="offers"
+									itemScope=""
+									itemType="http://schema.org/Offer">
+									<span>
+										<meta itemProp="priceCurrency" content="USD" />
+										<span className="sales">
+											<span className="value" itemProp="price" content="419.99">
+												$419.99
+											</span>
+										</span>
+									</span>
+								</div>
+							</div>
 
 							{/* Review Rating */}
 							<div className="product-rating clearfix">
@@ -1520,10 +1583,62 @@ export default function ModelVerifyV2() {
 								</div>
 							</div>
 						</div>
-
-						<Financing />
-
+						<div className="finance-estimation-container">
+							<hr />
+							<span className="finance-border-text">Or</span>
+							<div className="td-estimation w-100">
+								<style
+									dangerouslySetInnerHTML={{
+										__html:
+											"\n\n.disclosure  {\n\nfont-size: 10px;\nline-height: 12px;\n\n}\n\n.disclosure-mo {\n\nfont-size: 1.25rem !important;\n\n}\n\n.sales {\n\nfont-size: 1.25rem !important;\n\n}\n\n.list {\n\nfont-size: 1.25rem !important;\n\n}\n\n",
+									}}
+								/>
+								<div className="disclosure-mo">
+									<strong>
+										$70/mo No interest if paid in full within 6 months
+										<sup>1</sup>
+									</strong>
+									<p className="disclosure">
+										Interest will be charged from the purchase date if the
+										purchase balance is not paid in full at the end of the
+										promotional period. Advertised minimum payment is greater
+										than required minimum payment.
+									</p>
+								</div>
+								<div>
+									<a
+										href="javascript:void(0)"
+										data-url="https://www.troybilt.com/on/demandware.store/Sites-troybilt-Site/en_US/FinancingApplication-Disclosure"
+										data-title="Details & Disclosures"
+										className="td-payment-details">
+										See details
+									</a>
+								</div>
+							</div>
+							<div className="cc-container">
+								<img
+									src="/on/demandware.static/Sites-troybilt-Site/-/default/dw34490efe/images/cc-td-card.jpg"
+									alt=""
+								/>
+							</div>
+						</div>
 						<hr />
+
+						{/*
+---------------------------- 
+Financing & ModelVerifyBlock
+---------------------------- 
+*/}
+						{/* <Financing /> */}
+						{/* <hr class="" /> */}
+						<ModelVerifyBlock {...{ fit, inStockCheck }} />
+						{/*
+---------------------------- 
+Financing & ModelVerifyBlock
+---------------------------- 
+*/}
+						<hr />
+
 						<div className="row justify-content-center">
 							<div className="col-12">
 								<div className="product-description">
@@ -1852,9 +1967,9 @@ export default function ModelVerifyV2() {
 																	</h3>
 																	<h3>Hassle Free Returns</h3>
 																	<p>
-																		We&apos;ll make sure you get the right part.
+																		We&quot;ll make sure you get the right part.
 																		Enjoy 90-day returns for unused parts and we
-																		won&apos;t penalize you for ordering the
+																		won&quot;t penalize you for ordering the
 																		wrong part when you follow our return
 																		policy.*
 																	</p>
@@ -2598,7 +2713,8 @@ export default function ModelVerifyV2() {
 																											3 years ago. 5 out of 5
 																											stars.
 																										</span>
-																										Love my 42 Bagger
+																										Love my 42&quot;&quot;
+																										Bagger
 																									</h3>
 																								</div>
 																							</div>
@@ -6312,7 +6428,7 @@ export default function ModelVerifyV2() {
 																							overall. The mower bagger was easy
 																							to put together and took an hour
 																							or so to install on my
-																							46&apos;&apos; troy bilt mower.
+																							46&quot;&quot; troy bilt mower.
 																							There was a small problem with
 																							instruction manual as I matched up
 																							the parts with the pictures in the
@@ -6321,7 +6437,7 @@ export default function ModelVerifyV2() {
 																							the help number and was told that
 																							they were already assembled on
 																							another part and the pictures
-																							didn&apos;t look like the actual
+																							didn&quot;t look like the actual
 																							parts. Besides that the bagger
 																							works as described.
 																						</p>
@@ -7085,7 +7201,7 @@ and then makes a call to render the configured template with the returned recomm
 														href="/en_US/spindles/spindle-assembly---6.3inch-dia.-pulley/918-04822B.html?fitsOnModel=false"
 														data-gtmdata='{"id":"918-04822B","name":"Spindle Assembly - 6.3\" Dia. Pulley","productType":"PARTS"}'
 														itemProp="url">
-														Spindle Assembly - 6.3&apos;&apos; Dia. Pulley
+														Spindle Assembly - 6.3&quot;&quot; Dia. Pulley
 													</a>
 												</div>
 												<div className="product-number">
@@ -9047,7 +9163,7 @@ and then makes a call to render the configured template with the returned recomm
 														data-gtmdata='{"id":"918-04822B","name":"Spindle Assembly - 6.3\" Dia. Pulley","productType":"PARTS"}'
 														itemProp="url"
 														tabIndex={0}>
-														Spindle Assembly - 6.3&apos;&apos; Dia. Pulley
+														Spindle Assembly - 6.3&quot;&quot; Dia. Pulley
 													</a>
 												</div>
 												<div className="product-number">
@@ -10998,7 +11114,7 @@ and then makes a call to render the configured template with the returned recomm
 														href="/en_US/spindles/spindle-assembly---6.3inch-dia.-pulley/918-04822B.html?fitsOnModel=false"
 														data-gtmdata='{"id":"918-04822B","name":"Spindle Assembly - 6.3\" Dia. Pulley","productType":"PARTS"}'
 														itemProp="url">
-														Spindle Assembly - 6.3&apos;&apos; Dia. Pulley
+														Spindle Assembly - 6.3&quot;&quot; Dia. Pulley
 													</a>
 												</div>
 												<div className="product-number">

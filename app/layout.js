@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
 					<Header />
 					<link
 						rel="stylesheet"
-						href="https://www.troybilt.com/on/demandware.static/Sites-troybilt-Site/-/en_US/v1685444750308/css/global.css"
+						href="https://www.troybilt.com/on/demandware.static/Sites-troybilt-Site/-/en_US/v1686589540276/css/global.css"
 					/>
 
 					<link
