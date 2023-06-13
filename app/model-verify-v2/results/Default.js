@@ -3,12 +3,12 @@
 export default function InStock() {
 	return (
 		<div className="part-fitment-wrapper pdp text-center">
+			<div className="part-fitment-icon pdp my-2 w-100" />
 			<h6>
 				<div className="content-asset" style={{ fontSize: "0.9em" }}>
 					Have a Model Number?
 				</div>
 			</h6>
-			<div className="part-fitment-icon pdp my-2 w-100" />
 			<form
 				action="/en_US/service-and-parts/all-parts"
 				className="need-validation"
