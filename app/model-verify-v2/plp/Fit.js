@@ -1,6 +1,6 @@
-export default function Fit() {
+export default function Fit({ className }) {
 	return (
-		<div className="card refinement refinement-fits-on">
+		<div className={`card refinement refinement-model-num ${className}`}>
 			<div className="card-header">
 				<span
 					className="refinement-name"
