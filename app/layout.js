@@ -1,5 +1,6 @@
 import Footer from "@/t/Footer";
 import Header from "@/t/Header";
+import "@/scss/main.scss";
 
 export const metadata = {
 	title: "Troybuilt Builds",
