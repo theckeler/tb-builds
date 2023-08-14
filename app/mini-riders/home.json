@@ -29,7 +29,7 @@
 				"url": "https://www.troybilt.com/en_US/lawn-and-garden-tractors/tb30b-compact-riding-lawn-mower/13AC26JDA23.html?fitsOnModel=false#start=0",
 				"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw07d5e9eb/products/Equipment/Troy-Bilt_TB30B_6.jpg?sw=1000&sh=1000&sm=fit",
 				"title": "TB30B Mini Rider",
-				"copy": "Cub Cadet small riding lawn mowers deliver the same strength, durability and perfect cut as our larger riders; but in a more compact design.",
+				"copy": "Troy-Bilt small riding lawn mowers deliver the same strength, durability and perfect cut as our larger riders; but in a more compact design.",
 
 				"button": {
 					"copy": "EXPLORE The TB30B",
@@ -57,7 +57,7 @@
 		"h2": "Power on a Whole New Level",
 		"blocks": [
 			{
-				"icon": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/v9edc065984860cd594ba2c5c845f0728b1e16873/xt-enduro-series/SVG/icon-gas.svg?version=1,678,303,258,000",
+				"icon": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-troybilt-Library/default/v353f680f7d84a8a0cbb4b45f1e8369de11862a72/icon-gas.svg?version=1,692,015,930,000",
 				"title": "Gas Engine",
 				"copy": "Engine options offer smooth operation, quick acceleration with simple recovery; also available with electronic fuel injection technology (EFI) for easy startup.",
 				"addStyle": { "maxHeight": "6em" }
@@ -73,10 +73,10 @@
 
 	"quote": {
 		"stars": 5,
-		"title": "Convenient Size, Great Power",
-		"copy": "“I just got the Cub Cadet CC 30 Rider with the rear engine. I love it! For it's size, it's got great power and the engine is not too loud. I had to cut some really tall and thick grass and not once did the mower bog down. The size of the mower is convenient for fitting it in the back of my Chevy Colorado pickup truck. Of course, I would love to ride one of the big Enduro tractors, but I do have some tight spots to drive around, so the CC 30 is perfect! Smooth running and powerful. And, with the engine in the rear, I don't have exhaust blowing in my face!”",
-		"unit": "TB30E",
-		"name": "JayDawg",
+		"title": "Great Mower",
+		"copy": "“A great mower that fits through most single yard gates. Easy start with smooth controls. I have found no difficulty in using the forward, neutral and reverse lever as some have mentioned. Just like a golf cart. The cutting deck works well for selecting cutting height and provides a smooth cut on level ground. Inclines are a problem on side hills but do not go over the recommended cutting degrees. Great for a flat lawn around the house. Read the owners manual and you will have no problems at all. I am happy I purchased this model.”",
+		"unit": "Round Rock, TX, USA",
+		"name": "LCFol",
 		"hero": {
 			"img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-troybilt-Library/default/vaff6aec52d6f75de7072641eaa2d6fcd8af2b9b7/TB30/13AC26JDA23_TB30B_ENV3.jpg?version=1,686,251,944,000",
 			"srcset": [
@@ -121,7 +121,7 @@
 				}
 			},
 			{
-				"img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/vaff6aec52d6f75de7072641eaa2d6fcd8af2b9b7/mini-riders/fpo.jpg?version=1,685,641,908,000",
+				"img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-troybilt-Library/default/v353f680f7d84a8a0cbb4b45f1e8369de11862a72/757-06093_TB30XPE_armrests.jpg?version=1,692,016,279,000",
 				"title": "Armrest Kit",
 				"copy": "These arm rests are designed to provide support for your arms while you're mowing, allowing you to complete your job comfortably. When not in use, the armrest flips up to move out of the way.",
 				"button": {
@@ -209,7 +209,7 @@
 		},
 		{
 			"question": "What is the narrowest ride-on mower?",
-			"answer": "The narrowest ride-on mowers available are the TB30B and TB30E models offered by Cub Cadet. These small riding lawn mowers feature a compact design and come equipped with a 30-inch cutting deck. Despite their smaller size, these mowers maintain excellent maneuverability and are capable of efficiently navigating tight spaces. Their compact body and narrow cutting deck make them well-suited for working in constrained areas."
+			"answer": "The narrowest ride-on mowers available are the TB30B and TB30E models offered by Troy-Bilt. These small riding lawn mowers feature a compact design and come equipped with a 30-inch cutting deck. Despite their smaller size, these mowers maintain excellent maneuverability and are capable of efficiently navigating tight spaces. Their compact body and narrow cutting deck make them well-suited for working in constrained areas."
 		},
 		{
 			"question": "Do smaller mower decks cut better?",

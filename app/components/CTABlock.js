@@ -1,22 +1,24 @@
 import Button from "@/app/components/Button";
 
-const CTABlock = ({ block, className, addCSS }) => {
+const CTABlock = ({ block }) => {
 	return (
-		<>
+		<div className={block.className}>
 			<h2
-				dangerouslySetInnerHTML={{ __html: block.h1 }}
-				className="text-center"
+				dangerouslySetInnerHTML={{ __html: block.title.copy }}
+				className={`${block.title.className}`}
 			/>
-			<p
-				dangerouslySetInnerHTML={{ __html: block.copy }}
-				className="text-center"
-			/>
+			{block.text && (
+				<p
+					dangerouslySetInnerHTML={{ __html: block.text.copy }}
+					className={`${block.text.className}`}
+				/>
+			)}
 			<Button
 				url={block.button.url}
 				copy={block.button.copy}
-				className="bg-white mt-2 my-auto"
+				className={block.button.className}
 			/>
-		</>
+		</div>
 	);
 };
 

@@ -13,6 +13,7 @@ import ImgCopyBlock from "@/c/ImgCopyBlock";
 import HeroImg from "@/c/HeroImg";
 //import BuildMenu from "@/c/BuildMenu";
 import Faqs from "@/c/Faqs";
+import CTABlock from "@/components/CTABlock";
 
 const XTEnduroSeriesHome = () => {
 	const [jsonData, setJsonData] = useState({ ...jsonDataUS });
@@ -80,6 +81,23 @@ const XTEnduroSeriesHome = () => {
 							);
 						})}
 					</ul>
+				</section>
+
+				<section className="mt-6 py-4 bg-primary">
+					<CTABlock
+						block={{
+							className: "container py-4 mb-0 text-center",
+							title: {
+								copy: "Looking for something bigger?",
+								className: "text-white",
+							},
+							button: {
+								copy: "Explore 42” in Mowers",
+								url: "https://www.troybilt.com/en_US/lawn-and-garden-tractors/42inch-riding-mowers",
+								className: " bg-white mx-auto mt-4",
+							},
+						}}
+					/>
 				</section>
 
 				{/* forEveryJob */}
