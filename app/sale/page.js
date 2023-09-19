@@ -92,7 +92,7 @@ const XTEnduroSeriesHome = () => {
 								className: "text-white",
 							},
 							button: {
-								copy: "Explore 42” & 46” Mowers",
+								copy: "Explore 42” in Mowers",
 								url: "https://www.troybilt.com/en_US/lawn-and-garden-tractors/42inch-riding-mowers",
 								className: " bg-white mx-auto mt-4",
 							},
