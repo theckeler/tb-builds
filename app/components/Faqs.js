@@ -2,7 +2,7 @@
 import { Fragment } from "react";
 
 export default function Faqs({ faqs, className, id, allOpen }) {
-	let schemea = {
+	let schema = {
 		"@context": "https://schema.org",
 		"@type": "FAQPage",
 	};
@@ -17,7 +17,7 @@ export default function Faqs({ faqs, className, id, allOpen }) {
 			},
 		];
 	});
-	schemea = { ...schemea, mainEntity: mainEntity };
+	schema = { ...schema, mainEntity: mainEntity };
 
 	const Button = ({ block }) =>
 		allOpen ? (
@@ -76,7 +76,7 @@ export default function Faqs({ faqs, className, id, allOpen }) {
 			})}
 			<script
 				type="application/ld+json"
-				dangerouslySetInnerHTML={{ __html: JSON.stringify(schemea) }}
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
 			/>
 		</div>
 	);

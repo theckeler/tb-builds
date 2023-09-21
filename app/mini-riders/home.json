@@ -19,7 +19,7 @@
 
 	"copyBlock": {
 		"h1": "Compact Convenience",
-		"copy": "Small riding lawn mowers are designed with compactness in mind, making them an ideal choice for those with limited storage space such as garages or small sheds. Their smaller size allows for easy maneuverability in tight areas, ensuring efficient lawn care even in challenging corners or narrow passages. These compact mowers are specifically engineered to fit through standard-sized garden gates and doors, eliminating the hassle of removing fences or other obstacles for storage. Additionally, their reduced dimensions make them lighter and more maneuverable, allowing for effortless navigation and convenient storage, making them a practical and space-saving solution for homeowners with limited outdoor space."
+		"copy": "Small riding lawn mowers are an ideal choice to get the job done quicker than a walk behind lawn mower while also minimizing the amount of space needed to store the unit. The 30-in. deck size allows for easy maneuverability in tight areas and are engineered to fit through most standard-sized garden gates and doors. A small riding lawn mower is a practical, space-saving solution for homeowners with limited outdoor or shed space."
 	},
 
 	"lineup": {
@@ -28,8 +28,8 @@
 			{
 				"url": "https://www.troybilt.com/en_US/lawn-and-garden-tractors/tb30b-compact-riding-lawn-mower/13AC26JDA23.html?fitsOnModel=false#start=0",
 				"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw07d5e9eb/products/Equipment/Troy-Bilt_TB30B_6.jpg?sw=1000&sh=1000&sm=fit",
-				"title": "TB30B Mini Rider",
-				"copy": "Troy-Bilt small riding lawn mowers deliver the same strength, durability and perfect cut as our larger riders; but in a more compact design.",
+				"title": "TB30B Small Riding Lawn Mower",
+				"copy": "The Troy-Bilt® TB30B Gas Powered Riding Lawn Mower combines the time savings benefit of a riding mower with the storage size of a wide-cut walk behind mower. Its space-saving design makes the mower easy to store in garages and sheds.",
 
 				"button": {
 					"copy": "EXPLORE The TB30B",
@@ -40,12 +40,10 @@
 			{
 				"url": "https://www.troybilt.com/en_US/lawn-and-garden-tractors/tb30e-xp-battery-powered-compact-riding-mower/33AA27JDB66.html?fitsOnModel=false#start=7",
 				"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw07566b58/products/Equipment/Troy-Bilt_TB30EXP_4.jpg?sw=740&sh=740&sm=fit",
-				"title": "TB30E Mini Rider",
-
-				"copy": "Its compact size gives you incredible maneuverability and control so you can mow through small areas like most backyard gateways.",
-
+				"title": "TB30E XP Small Riding Lawn Mower",
+				"copy": "The TB30E XP brings the same storage benefits of its gas counterpart, but with a lithium-ion powered 56V MAX* battery and two brushless motors designed for reliable performance.",
 				"button": {
-					"copy": "EXPLORE the TB30E",
+					"copy": "EXPLORE the TB30E XP",
 					"bgColor": "bg-secondary"
 				},
 				"border": false
@@ -59,13 +57,13 @@
 			{
 				"icon": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-troybilt-Library/default/v353f680f7d84a8a0cbb4b45f1e8369de11862a72/icon-gas.svg?version=1,692,015,930,000",
 				"title": "Gas Engine",
-				"copy": "Engine options offer smooth operation, quick acceleration with simple recovery; also available with electronic fuel injection technology (EFI) for easy startup.",
+				"copy": "Engine options offer smooth operation, quick acceleration with simple recovery.",
 				"addStyle": { "maxHeight": "6em" }
 			},
 			{
 				"icon": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/v9edc065984860cd594ba2c5c845f0728b1e16873/xt-enduro-series/SVG/icon-battery.svg?version=1,678,303,258,000",
 				"title": "Electric",
-				"copy": "Our lithium-ion battery technology provides long runtime, quiet operation, minimal power fade, less maintenance than gas and a fast charge.",
+				"copy": "Troy-Bilt lithium-ion battery technology delivers reliable runtime with minimal power fade, a quiet operation, and low maintenance compared to its gas counterparts.",
 				"addStyle": { "maxHeight": "6em" }
 			}
 		]
@@ -98,12 +96,12 @@
 
 	"forEveryJob": {
 		"h2": "Attachments & Accessories",
-		"copy": "Designed to get more done season after season with a selection of attachments and accessories designed for a variety of jobs.",
+		"copy": "Your riding lawn mower can be used for more than just cutting grass with a variety of attachments and accessories available to help make yardwork easier.",
 		"blocks": [
 			{
 				"img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-troybilt-Library/default/vaff6aec52d6f75de7072641eaa2d6fcd8af2b9b7/TB30/bagger.jpg?version=1,686,309,531,000",
 				"title": "Bagger System",
-				"copy": "This double bag grass collection system mounts easily to your small riding lawn mower to collect grass clippings while mowing. The vented nylon bags provide superior strength and airflow to reduce grass from clogging.",
+				"copy": "A double bag grass collection system mounts easily to your lawn mower to collect grass clippings while mowing. The vented nylon bags provide airflow and strength to help prevent grass from clogging.",
 				"button": {
 					"copy": "View Bagger System",
 					"className": "w-100",
@@ -113,7 +111,7 @@
 			{
 				"img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-troybilt-Library/default/vaff6aec52d6f75de7072641eaa2d6fcd8af2b9b7/TB30/ezstow.jpg?version=1,686,309,536,000",
 				"title": "Hauler",
-				"copy": "Designed for up to 800 pounds and built with fold-out side panels for easy loading and unloading, the hauler allows you to easily move mulch, logs and more.",
+				"copy": "Built with fold-out side panels for easy loading and unloading and designed to carry up to 800 pounds, the hauler allows you to move logs, mulch, and more easily.",
 				"button": {
 					"copy": "View Hauler",
 					"className": "w-100",
@@ -123,7 +121,7 @@
 			{
 				"img": "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-troybilt-Library/default/v353f680f7d84a8a0cbb4b45f1e8369de11862a72/757-06093_TB30XPE_armrests.jpg?version=1,692,016,279,000",
 				"title": "Armrest Kit",
-				"copy": "These arm rests are designed to provide support for your arms while you're mowing, allowing you to complete your job comfortably. When not in use, the armrest flips up to move out of the way.",
+				"copy": "To help make you more comfortable while seated, these armrests are designed to provide support for your arms while you're mowing. When not in use, the armrest flips up to move out of the way.",
 				"button": {
 					"copy": "View Armrest Kit",
 					"className": "w-100",
@@ -188,32 +186,24 @@
 	},
 	"faqs": [
 		{
-			"question": "What size riding mower do I need for 1 acre?",
-			"answer": "To maintain a 1-acre lawn efficiently, choose a riding mower with a cut width between 30 to 42 inches. This range provides a good balance between maneuverability and productivity. Consider factors such as lawn layout, obstacles, and personal preferences when deciding on the ideal cut width. A wider cut width allows for faster coverage of a larger area, while a smaller cut width is better for navigating tight corners and narrow passages. Ultimately, selecting a riding mower within the 30 to 42-inch range ensures effective mowing for your 1-acre lawn."
-		},
-		{
 			"question": "Can you use a riding mower on a small yard?",
-			"answer": "Riding mowers are suitable for small yards, particularly those that are one-half acre in size or larger. While they may be less powerful and slower compared to lawn and garden tractors, riding mowers excel at handling various terrains, including uphill and downhill slopes, as well as uneven land. Additionally, some riding mowers offer features such as mulching and bagging capabilities, providing additional options for yard maintenance."
-		},
-		{
-			"question": "What are the benefits of a small riding lawn mower?",
-			"answer": "Small riding lawn mowers offer several benefits. Firstly, their compact size makes them highly maneuverable, allowing easy navigation around tight corners and through small gates. This makes them ideal for yards with limited space. Secondly, small riding mowers are well-suited for individuals with smaller yards who do not require a larger machine. They provide efficient and effective mowing without the need for excessive power or size. Lastly, these small machines tend to be more fuel-efficient and produce fewer emissions compared to larger counterparts, making them an environmentally-friendly choice for lawn maintenance."
+			"answer": "A small riding lawn mower can significantly speed up the mowing process compared to a standard 21-in. push mower. The 30-inch cutting width vs. a standard 21-in. walk-behind deck helps provide more ground coverage per pass thus improving productivity and making the maintenance of your small yard manageable. Riding mowers are suitable for small yards, particularly those that are one-half acre in size or larger. "
 		},
 		{
 			"question": "What type of mower is recommended for a half acre?",
-			"answer": "When it comes to a half-acre lawn, both small riding lawn mowers and self-propelled gas mowers are viable options. If you prefer a walk-behind mower, a self-propelled gas mower is highly recommended. These mowers feature powered wheels that make maneuvering around the yard much easier, alleviating some of the physical effort required. They offer a convenient solution for maintaining a half-acre lawn efficiently. On the other hand, if you prefer a seated position and want to cover the area more quickly, a small riding lawn mower can also be a suitable choice. It provides comfort and convenience while navigating the yard, especially if there are any slopes or uneven terrain to contend with."
+			"answer": "Both small riding lawn mowers and are viable options for a half-acre yard. If you prefer a seated position and want to cover the area quickly, a small riding lawn mower can also be a suitable choice. It provides comfort and convenience while navigating the yard. Troy-Bilt offers two small riding lawn mowers, the <a href=\"https://www.troybilt.com/en_US/lawn-and-garden-tractors/tb30b-compact-riding-lawn-mower/13AC26JDA23.html?fitsOnModel=false#start=0\">TB30B</a>, and the <a href=\"https://www.troybilt.com/en_US/lawn-and-garden-tractors/tb30e-xp-battery-powered-compact-riding-mower/33AA27JDB66.html?fitsOnModel=false#start=7\">TB30E XP</a>. Self-propelled mowers feature front or rear-powered wheels that aide in maneuvering around the yard and help alleviate some of the physical effort required. They offer a convenient solution for maintaining a half-acre lawn efficiently. "
 		},
 		{
 			"question": "Is a riding mower worth it for a half acre?",
-			"answer": "When it comes to half-acre lawns, investing in a riding mower can be a worthwhile choice. With lawns of this size, a riding mower offers several advantages, including enhanced efficiency and reduced cutting time. By opting for a fast riding mower with a cutting deck size of 40-60 inches or more, you can significantly speed up the mowing process and cover more ground with each pass. This increased cutting width allows for faster coverage and improved productivity, making the maintenance of your half-acre lawn more manageable and enjoyable."
+			"answer": "A riding mower offers several advantages for yards of a half-acre, including enhanced efficiency and reduced cutting time compared to a walk-behind mower. By opting for a riding mower with a 30-inch deck, you can speed up the mowing process and cover more ground with each pass compared to a residential walk-behind mower with a cutting deck smaller than 30 in. Troy-Bilt offers two small riding lawn mowers, the <a href=\"https://www.troybilt.com/en_US/lawn-and-garden-tractors/tb30b-compact-riding-lawn-mower/13AC26JDA23.html?fitsOnModel=false#start=0\">TB30B</a>, and the <a href=\"https://www.troybilt.com/en_US/lawn-and-garden-tractors/tb30e-xp-battery-powered-compact-riding-mower/33AA27JDB66.html?fitsOnModel=false#start=7\">TB30E XP</a>. The increased cutting width allows for faster coverage and improved productivity, making the maintenance of your half-acre lawn more manageable. Both models are equipped with a hitch that offers light towing capabilities and a mulch plug that helps prevent grass from escaping the machine, enabling it to be finely chopped into smaller pieces for use as lawn fertilizer. Investing in a riding mower can be a worthwhile choice."
 		},
 		{
-			"question": "What is the narrowest ride-on mower?",
-			"answer": "The narrowest ride-on mowers available are the TB30B and TB30E models offered by Troy-Bilt. These small riding lawn mowers feature a compact design and come equipped with a 30-inch cutting deck. Despite their smaller size, these mowers maintain excellent maneuverability and are capable of efficiently navigating tight spaces. Their compact body and narrow cutting deck make them well-suited for working in constrained areas."
+			"question": "What are the benefits of a small riding lawn mower?",
+			"answer": "A compact design makes small riding lawn mowers highly maneuverable for easy navigation around tight corners and through small gates. Benefits of the Troy-Bilt <a href=\"https://www.troybilt.com/en_US/lawn-and-garden-tractors/tb30b-compact-riding-lawn-mower/13AC26JDA23.html?fitsOnModel=false#start=0\">TB30B</a> and <a href=\"https://www.troybilt.com/en_US/lawn-and-garden-tractors/tb30e-xp-battery-powered-compact-riding-mower/33AA27JDB66.html?fitsOnModel=false#start=7\">TB30E XP</a> specifically include:<ul><li>Easy storage, fitting in the space of two garbage cans.</li><li>Ability to mow through a 36-inch gate doorway. </li><li>Rear engine battery location allows for a better line of sight with an unobstructed view while mowing compared to a lawn tractor.</li></ul>"
 		},
 		{
-			"question": "Do smaller mower decks cut better?",
-			"answer": "When it comes to large, hilly lawns, opting for a mower with a smaller deck and a more powerful engine can be advantageous. The combination of a smaller deck and a bigger engine allows for faster mowing while maintaining precision and maneuverability. This setup enables efficient cutting without compromising the quality of the results."
+			"question": "What is the smallest riding mower?",
+			"answer": "The smallest riding lawn mowers available in the Troy-Bilt® lineup are the <a href=\"https://www.troybilt.com/en_US/lawn-and-garden-tractors/tb30b-compact-riding-lawn-mower/13AC26JDA23.html?fitsOnModel=false#start=0\">TB30B</a>, and the <a href=\"https://www.troybilt.com/en_US/lawn-and-garden-tractors/tb30e-xp-battery-powered-compact-riding-mower/33AA27JDB66.html?fitsOnModel=false#start=7\">TB30E XP</a>  models. Both feature a compact design, a 30-in. cutting deck and are capable of efficiently navigating tight spaces. The <a href=\"https://www.troybilt.com/en_US/lawn-and-garden-tractors/tb30b-compact-riding-lawn-mower/13AC26JDA23.html?fitsOnModel=false#start=0\">TB30B</a> is a gas powered model while the <a href=\"TB30E-XP\">TB30B XP</a>  runs on a lithium-ion battery platform."
 		}
 	]
 }
