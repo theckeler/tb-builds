@@ -93,7 +93,7 @@ const XTEnduroSeriesHome = () => {
 							},
 							button: {
 								copy: "Explore 42” & 46” Mowers",
-								url: "https://www.troybilt.com/en_US/lawn-and-garden-tractors/42inch-riding-mowers",
+								url: "https://www.troybilt.com/en_US/lawn-and-garden-tractors/42inch-and-46inch-riding-mowers",
 								className: " bg-white mx-auto mt-4",
 							},
 						}}
