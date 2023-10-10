@@ -27,15 +27,13 @@ export default function Promotion({}) {
 				</div>
 			</div> */}
 
-			<div className="pl-browse-1 pl-browse mt-2">
+			<div className="pl-browse-1 pl-browse mt-3">
 				<div className="cat-landing-1 cat-landing">
-					<div
-						className="hero-caro slick-initialized slick-slider slick-dotted"
-						id="slider0">
-						<div className="slick-list draggable">
-							<div className="slick-track" style={{ opacity: 1 }}>
+					<div className="hero-caro slick-initialized" style={{}}>
+						<div className="slick-list">
+							<div className="" style={{ opacity: 1 }}>
 								<div
-									className="hero slick-slide slick-current slick-active"
+									className="hero "
 									data-slick-index={0}
 									aria-hidden="false"
 									style={{
@@ -44,12 +42,10 @@ export default function Promotion({}) {
 										top: 0,
 										zIndex: 999,
 										opacity: 1,
-									}}
-									role="tabpanel"
-									id="slick-slide00"
-									aria-describedby="slick-slide-control00"
-									tabIndex={0}>
-									<div className="hero-caro-container hero-content-right">
+									}}>
+									<div
+										className="hero-caro-container hero-content-right"
+										style={{ minHeight: "450px", overflow: "hidden" }}>
 										<picture>
 											<source
 												data-type="desktopimage"
@@ -68,12 +64,15 @@ export default function Promotion({}) {
 											/>
 											<img
 												alt="Person snow blowing their driveway"
-												className="img-fluid"
+												className="w-100 h-100 position-absolute"
 												data-type="defaultimage"
+												style={{ objectFit: "cover" }}
 												src="https://www.troybilt.com/on/demandware.static/-/Sites-troybilt-Library/default/dw15a2738b/images/product-line-landing/Main-Carousel/PLLSNOW_StormTracker2690_desktop_1540x630.jpg"
 											/>
 										</picture>
-										<div className="text-block bg-primary">
+										<div
+											className="text-block bg-primary"
+											style={{ top: "0 !important", transform: "initial" }}>
 											<div className="intro-block">
 												<span className="label-1">Winter Sale - Maybe?</span>
 											</div>
