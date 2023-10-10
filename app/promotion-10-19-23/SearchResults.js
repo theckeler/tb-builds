@@ -11,8 +11,7 @@ export default function SearchResults({}) {
 					<div
 						className="tab-pane container active"
 						id="product-search-results"
-						role="tabpanel"
-						aria-expanded="true">
+						role="tabpanel">
 						<div className="row result-header">
 							<div className="result-count col-12 "></div>
 						</div>
@@ -295,7 +294,7 @@ export default function SearchResults({}) {
 																alt=""
 															/>
 															<span className=" ">
-																24"
+																24&quot;
 																<span className="count d-none">(3)</span>
 															</span>
 														</a>
@@ -315,7 +314,7 @@ export default function SearchResults({}) {
 																alt=""
 															/>
 															<span className=" ">
-																26"
+																26&quot;
 																<span className="count d-none">(2)</span>
 															</span>
 														</a>
@@ -335,7 +334,7 @@ export default function SearchResults({}) {
 																alt=""
 															/>
 															<span className=" ">
-																28"
+																28&quot;
 																<span className="count d-none">(2)</span>
 															</span>
 														</a>
@@ -355,7 +354,7 @@ export default function SearchResults({}) {
 																alt=""
 															/>
 															<span className=" ">
-																30"
+																30&quot;
 																<span className="count d-none">(2)</span>
 															</span>
 														</a>
@@ -375,7 +374,7 @@ export default function SearchResults({}) {
 																alt=""
 															/>
 															<span className=" ">
-																34"
+																34&quot;
 																<span className="count d-none">(1)</span>
 															</span>
 														</a>
@@ -475,7 +474,7 @@ export default function SearchResults({}) {
 																alt=""
 															/>
 															<span className=" ">
-																13" x 4"
+																13&quot; x 4&quot;
 																<span className="count d-none">(2)</span>
 															</span>
 														</a>
@@ -495,7 +494,7 @@ export default function SearchResults({}) {
 																alt=""
 															/>
 															<span className=" ">
-																15" x 5"
+																15&quot; x 5&quot;
 																<span className="count d-none">(3)</span>
 															</span>
 														</a>
@@ -515,7 +514,7 @@ export default function SearchResults({}) {
 																alt=""
 															/>
 															<span className=" ">
-																16" x 4.8"
+																16&quot; x 4.8&quot;
 																<span className="count d-none">(2)</span>
 															</span>
 														</a>
@@ -535,7 +534,7 @@ export default function SearchResults({}) {
 																alt=""
 															/>
 															<span className=" ">
-																16" x 6.5"
+																16&quot; x 6.5&quot;
 																<span className="count d-none">(2)</span>
 															</span>
 														</a>
@@ -1128,7 +1127,7 @@ export default function SearchResults({}) {
 															<ul>
 																<li>
 																	28 in. clearing width and a 20 in. intake
-																	height powers through up to 12" of snow
+																	height powers through up to 12&quot; of snow
 																</li>
 																<li>
 																	SelecTrac™ drive allows for good handling in
@@ -1563,8 +1562,9 @@ export default function SearchResults({}) {
 														<div className="tile-attributes" itemProp="name">
 															<ul>
 																<li>
-																	24" clearing width and 20" intake height is
-																	designed to handle up to 12" of snowfall
+																	24&quot; clearing width and 20&quot; intake
+																	height is designed to handle up to 12&quot; of
+																	snowfall
 																</li>
 																<li>
 																	Two-stage technology uses steel augers to
@@ -2012,7 +2012,7 @@ export default function SearchResults({}) {
 															<ul>
 																<li>
 																	26 in. clearing width and 20 in. intake height
-																	powers through up to 12" of snow
+																	powers through up to 12&quot; of snow
 																</li>
 																<li>
 																	Remote pitch control lever allows the operator
@@ -2901,7 +2901,7 @@ export default function SearchResults({}) {
 															<ul>
 																<li>
 																	26 in. clearing width and 20 in. intake height
-																	powers through up to 12" of snow
+																	powers through up to 12&quot; of snow
 																</li>
 																<li>
 																	In-dash LED headlight helps provide visibility
@@ -3337,7 +3337,7 @@ export default function SearchResults({}) {
 															<ul>
 																<li>
 																	30 in. clearing width and a 20 in. intake
-																	height powers through up to 12" of snow
+																	height powers through up to 12&quot; of snow
 																</li>
 																<li>
 																	Powered by a Troy-Bilt 357cc OHV engine
