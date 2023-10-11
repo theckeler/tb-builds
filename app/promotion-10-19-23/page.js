@@ -1,5 +1,6 @@
 "use client";
 
+import Button from "@/components/Button";
 import SearchResults from "./SearchResults";
 
 export default function Promotion({}) {
@@ -86,6 +87,20 @@ export default function Promotion({}) {
 											<div className="copy-block">
 												<div className="hero-body">
 													Offer Valid October 19, 2023 – November 30, 2023
+												</div>
+												<div className="hero-body">
+													<p>
+														Also available at select retailer locations, such as
+														Menards, Do It Best, True Value, United Hardware,
+														Blain’s Farm and Fleet, Northern Tool, and Orgill
+														stores
+													</p>
+
+													<Button
+														copy="Find a Store"
+														className="bg-secondary text-white"
+														url="https://www.troybilt.com/on/demandware.store/Sites-troybilt-Site/en_US/Stores-FindService"
+													/>
 												</div>
 											</div>
 											{/* <div className="hero-cta">
