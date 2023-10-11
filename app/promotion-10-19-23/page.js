@@ -79,13 +79,13 @@ export default function Promotion({}) {
 											<div className="card-title">
 												<p className="display-1">
 													<span style={{ fontSize: 36 }}>
-														$50 Select Snow Blowers
+														Save on Select Snow Blowers
 													</span>
 												</p>
 											</div>
 											<div className="copy-block">
 												<div className="hero-body">
-													Valid October 19, 2023 – November 11, 2023
+													Offer Valid October 19, 2023 – November 30, 2023
 												</div>
 											</div>
 											{/* <div className="hero-cta">
@@ -109,52 +109,33 @@ export default function Promotion({}) {
 
 			<div className="container mt-4" style={{ fontSize: "12px" }}>
 				<p>
-					<strong>$50 off Troy-Bilt® Storm™ 2420 Two-Stage Snow Blower.</strong>
+					<strong>
+						$50.00 off full retail price of Troy-Bilt® Storm™ 2420 Two-Stage
+						Snow Blower.
+					</strong>
 					<br />
-					Offer valid 10/19/23 at 12.00 a.m. ET – 11/11/23 at 11:59 pm ET, at
-					troybilt.com and select retail locations. Cannot be combined with any
-					other discount or promotion. Discount does not apply to tax or
-					shipping and handling. If you return the merchandise, the value of
-					this promotion is not refunded or credited to your account. Does not
-					apply to prior or future purchases. No cash value, except where
-					prohibited. Promotion is subject to change. Other restrictions may
-					apply.
+					Offer valid 10/19/23 – 11/11/23, at troybilt.com and select retail
+					locations. Cannot be combined with any other discount or promotion.
+					Discount does not apply to tax or shipping and handling. If you return
+					the merchandise, the value of this promotion is not refunded or
+					credited to your account. Does not apply to prior or future purchases.
+					No cash value, except where prohibited. Promotion is subject to
+					change. Other restrictions may apply.
 				</p>
 				<p>
-					<strong>$50 off Troy-Bilt® Storm™ 2620 Two-Stage Snow Blower.</strong>
+					<strong>
+						$50.00 off full retail price of Troy-Bilt® Storm™ 2620 Two-Stage
+						Snow Blower, Troy-Bilt® Storm™ 2890 Two-Stage Snow Blower and
+						Troy-Bilt® Storm™ 3090 Two-Stage Snow Blower.
+					</strong>
 					<br />
-					Offer valid 10/19/23 at 12.00 a.m. ET – 11/11/23 at 11:59 pm ET, at
-					troybilt.com and select retail locations. Cannot be combined with any
-					other discount or promotion. Discount does not apply to tax or
-					shipping and handling. If you return the merchandise, the value of
-					this promotion is not refunded or credited to your account. Does not
-					apply to prior or future purchases. No cash value, except where
-					prohibited. Promotion is subject to change. Other restrictions may
-					apply.
-				</p>
-				<p>
-					<strong>$50 off Troy-Bilt® Storm™ 2890 Two-Stage Snow Blower.</strong>
-					<br />
-					Offer valid 10/19/23 at 12.00 a.m. ET – 11/11/23 at 11:59 pm ET, at
-					troybilt.com and select retail locations. Cannot be combined with any
-					other discount or promotion. Discount does not apply to tax or
-					shipping and handling. If you return the merchandise, the value of
-					this promotion is not refunded or credited to your account. Does not
-					apply to prior or future purchases. No cash value, except where
-					prohibited. Promotion is subject to change. Other restrictions may
-					apply.
-				</p>
-				<p>
-					<strong>$50 off Troy-Bilt® Storm™ 3090 Two-Stage Snow Blower.</strong>
-					<br />
-					Offer valid 10/19/23 at 12.00 a.m. ET – 11/11/23 at 11:59 pm ET, at
-					troybilt.com and select retail locations. Cannot be combined with any
-					other discount or promotion. Discount does not apply to tax or
-					shipping and handling. If you return the merchandise, the value of
-					this promotion is not refunded or credited to your account. Does not
-					apply to prior or future purchases. No cash value, except where
-					prohibited. Promotion is subject to change. Other restrictions may
-					apply.
+					Offer valid 10/19/23 – 11/30/23, at troybilt.com and select retail
+					locations. Cannot be combined with any other discount or promotion.
+					Discount does not apply to tax or shipping and handling. If you return
+					the merchandise, the value of this promotion is not refunded or
+					credited to your account. Does not apply to prior or future purchases.
+					No cash value, except where prohibited. Promotion is subject to
+					change. Other restrictions may apply.
 				</p>
 			</div>
 		</div>
