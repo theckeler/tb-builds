@@ -2,6 +2,7 @@
 	"products": [
 		{
 			"title": "Storm™ 2420 Snow Blower",
+			"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw10415a49/products/Equipment/Troy-Bilt_Storm2420_16.jpg?sw=290&sh=290&sm=fit",
 			"sub": "Two-Stage",
 			"priceOrig": "999.00",
 			"priceSale": "949.00",
@@ -13,6 +14,7 @@
 		},
 		{
 			"title": "Storm™ 2620 Snow Blower",
+			"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwa5b8c6e6/products/Equipment/Troy-Bilt_Storm%202620_12.jpg?sw=315&sh=315&sm=fit",
 			"sub": "Two-Stage",
 			"priceOrig": "1,199.00",
 			"priceSale": "1,149.00",
@@ -23,18 +25,20 @@
 			]
 		},
 		{
-			"title": "Storm Tracker™ 2890 Snow Blower",
+			"title": "Storm 2890 Snow Blower",
+			"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw141f3cdf/products/Equipment/Troy-Bilt_Storm2890_13.jpg?sw=290&sh=290&sm=fit",
 			"sub": "Two-Stage",
-			"priceOrig": "1,899.00",
-			"priceSale": "1,849.00",
+			"priceOrig": "1,399.00",
+			"priceSale": "1,349.00",
 			"desc": [
-				"24\" clearing width and 20\" intake height is designed to handle up to 12\" of snowfall",
-				"Two-stage technology uses steel augers to break up snow and a high-speed steel impeller to propel it out of the chute",
-				"Make quick work of clearing snow with the powerful serrated augers and an extended chute designed to minimize snow blowback"
+				"28 in. clearing width and a 20 in. intake height powers through up to 12\" of snow",
+				"Touch N’ Turn™ trigger-controlled power steering allows you to quickly adjust your direction with one finger",
+				"Delivers reliable power through a Troy-Bilt 272cc OHV engine with push-button electric start"
 			]
 		},
 		{
 			"title": "Storm™ 3090 Snow Blower",
+			"img": "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwa5c216c8/products/Equipment/Troy-Bilt_Storm3090_13.jpg?sw=290&sh=290&sm=fit",
 			"sub": "Two-Stage",
 			"priceOrig": "1,599.00",
 			"priceSale": "1,549.00",

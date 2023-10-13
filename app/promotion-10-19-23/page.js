@@ -48,11 +48,11 @@ export default function Promotion({}) {
 									<div className="hero-caro-container hero-content-right">
 										<div
 											className="position-relative"
-											style={{ minHeight: "450px", overflow: "hidden" }}>
+											style={{ minHeight: "550px", overflow: "hidden" }}>
 											<ResponsiveImage
 												src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/promotion-10-19-23/31CM6CP3B66_Storm2620_env.jpg"
 												className="w-100 h-100 position-absolute"
-												style={{ objectFit: "cover" }}
+												style={{ objectFit: "cover", objectPosition: "top" }}
 												alt=""
 												hero
 												id="promo-hero"
@@ -62,12 +62,16 @@ export default function Promotion({}) {
 											className="text-block bg-primary"
 											style={{ top: "0 !important", transform: "initial" }}>
 											<div className="intro-block">
-												<span className="label-1">Fall Sale</span>
+												<span className="label-1">Winter Sale</span>
 											</div>
 											<div className="card-title">
 												<p
 													className="display-1"
-													style={{ fontSize: 36, lineHeight: "1.05" }}>
+													style={{
+														fontSize: 36,
+														lineHeight: "1.05",
+														textTransform: "uppercase",
+													}}>
 													<span>
 														Save $50 on select snow blowers<sup>*</sup>
 													</span>

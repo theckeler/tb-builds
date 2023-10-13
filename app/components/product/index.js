@@ -16,11 +16,7 @@ export default function ProductTile({ block }) {
 					<div className="image-container">
 						<div className="badge-row"></div>
 						<a href="#top">
-							<img
-								className="tile-image"
-								src="https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwd27d9b39/products/Equipment/Troy-Bilt_StormTracker2890_11.jpg?sw=315&sh=315&sm=fit"
-								alt=""
-							/>
+							<img className="tile-image" src={block.img} alt="" />
 						</a>
 						<a
 							className="quickview btn btn-secondary hidden-sm-down"
