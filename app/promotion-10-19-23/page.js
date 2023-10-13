@@ -2,13 +2,14 @@
 
 import Button from "@/components/Button";
 import SearchResults from "./SearchResults";
+import ResponsiveImage from "../components/ResponsiveImage";
 
 export default function Promotion({}) {
 	return (
 		<div id="main">
 			<link
 				rel="stylesheet"
-				href="https://www.troybilt.com/on/demandware.static/Sites-troybilt-Site/-/en_US/v1696935959775/css/search.css"
+				href="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/search.css"
 			/>
 			{/* <div className="container-fluid">
 				<div className="row">
@@ -30,7 +31,7 @@ export default function Promotion({}) {
 
 			<div className="pl-browse-1 pl-browse mt-3">
 				<div className="cat-landing-1 cat-landing mb-0">
-					<div className="hero-caro slick-initialized" style={{}}>
+					<div className="hero-caro slick-initialized pb-0 mb-0" style={{}}>
 						<div className="slick-list">
 							<div className="" style={{ opacity: 1 }}>
 								<div
@@ -44,63 +45,54 @@ export default function Promotion({}) {
 										zIndex: 999,
 										opacity: 1,
 									}}>
-									<div
-										className="hero-caro-container hero-content-right"
-										style={{ minHeight: "450px", overflow: "hidden" }}>
-										<picture>
-											<source
-												data-type="desktopimage"
-												media="(min-width: 1025px)"
-												srcSet="https://www.troybilt.com/on/demandware.static/-/Sites-troybilt-Library/default/dw15a2738b/images/product-line-landing/Main-Carousel/PLLSNOW_StormTracker2690_desktop_1540x630.jpg"
-											/>
-											<source
-												data-type="tabletimage"
-												media="(min-width: 768px)"
-												srcSet="https://www.troybilt.com/on/demandware.static/-/Sites-troybilt-Library/default/dw0061b7b5/images/product-line-landing/Main-Carousel/PLLSNOW_StormTracker2690_mobile_805x540.jpg"
-											/>
-											<source
-												data-type="mobileimage"
-												media="(max-width: 767px)"
-												srcSet="https://www.troybilt.com/on/demandware.static/-/Sites-troybilt-Library/default/dw0061b7b5/images/product-line-landing/Main-Carousel/PLLSNOW_StormTracker2690_mobile_805x540.jpg"
-											/>
-											<img
-												alt="Person snow blowing their driveway"
+									<div className="hero-caro-container hero-content-right">
+										<div
+											className="position-relative"
+											style={{ minHeight: "450px", overflow: "hidden" }}>
+											<ResponsiveImage
+												src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/promotion-10-19-23/31CM6CP3B66_Storm2620_env.jpg"
 												className="w-100 h-100 position-absolute"
-												data-type="defaultimage"
 												style={{ objectFit: "cover" }}
-												src="https://www.troybilt.com/on/demandware.static/-/Sites-troybilt-Library/default/dw15a2738b/images/product-line-landing/Main-Carousel/PLLSNOW_StormTracker2690_desktop_1540x630.jpg"
+												alt=""
+												hero
+												id="promo-hero"
 											/>
-										</picture>
+										</div>
 										<div
 											className="text-block bg-primary"
 											style={{ top: "0 !important", transform: "initial" }}>
 											<div className="intro-block">
-												<span className="label-1">2023 Winter Sale</span>
+												<span className="label-1">Fall Sale</span>
 											</div>
 											<div className="card-title">
-												<p className="display-1">
-													<span style={{ fontSize: 36 }}>
-														Save on Select Snow Blowers
+												<p
+													className="display-1"
+													style={{ fontSize: 36, lineHeight: "1.05" }}>
+													<span>
+														Save $50 on select snow blowers<sup>*</sup>
 													</span>
 												</p>
 											</div>
 											<div className="copy-block">
-												<div className="hero-body">
-													Offer Valid October 19, 2023 – November 30, 2023
+												<div
+													className="hero-body"
+													style={{ fontSize: 22, lineHeight: "1.05" }}>
+													Limited time offer
 												</div>
 												<div className="hero-body">
-													<p>
+													<p className="font-weight-normal">
 														Also available at select retailer locations, such as
-														Menards, Do It Best, True Value, United Hardware,
-														Blain’s Farm and Fleet, Northern Tool, and Orgill
-														stores
+														Menards<sup>®</sup>, Do It Best<sup>®</sup>, True
+														Value<sup>®</sup>, United Hardware<sup>®</sup>,
+														Blain’s Farm and Fleet<sup>®</sup>, Northern Tool
+														<sup>®</sup>, and Orgill<sup>®</sup> stores
 													</p>
 
-													<Button
+													{/* <Button
 														copy="Find a Store"
 														className="bg-secondary text-white"
 														url="https://www.troybilt.com/on/demandware.store/Sites-troybilt-Site/en_US/Stores-FindService"
-													/>
+													/> */}
 												</div>
 											</div>
 											{/* <div className="hero-cta">
@@ -125,19 +117,22 @@ export default function Promotion({}) {
 			<div className="container mt-4" style={{ fontSize: "12px" }}>
 				<p>
 					<strong>
-						$50.00 off full retail price of Troy-Bilt® Storm™ 2420 Two-Stage
-						Snow Blower.
+						<sup>*</sup>$50.00 off full retail price of Troy-Bilt® Storm™ 2420
+						Two-Stage Snow Blower, Troy-Bilt® Storm™ 2620 Two-Stage Snow Blower,
+						Troy-Bilt® Storm™ 2890 Two-Stage Snow Blower and Troy-Bilt® Storm™
+						3090 Two-Stage Snow Blower.
 					</strong>
 					<br />
-					Offer valid 10/19/23 – 11/11/23, at troybilt.com and select retail
-					locations. Cannot be combined with any other discount or promotion.
-					Discount does not apply to tax or shipping and handling. If you return
-					the merchandise, the value of this promotion is not refunded or
-					credited to your account. Does not apply to prior or future purchases.
-					No cash value, except where prohibited. Promotion is subject to
-					change. Other restrictions may apply.
+					Offer valid 10/19/23 – 11/11/23 at select retail locations and on
+					shipments in the US 48 contiguous states on troybilt.com. Cannot be
+					combined with any other discount or promotion. Discount does not apply
+					to tax or shipping and handling. If you return the merchandise, the
+					value of this promotion is not refunded or credited to your account.
+					Does not apply to prior or future purchases. No cash value, except
+					where prohibited. Promotion is subject to change. Other restrictions
+					may apply.
 				</p>
-				<p>
+				{/* <p>
 					<strong>
 						$50.00 off full retail price of Troy-Bilt® Storm™ 2620 Two-Stage
 						Snow Blower, Troy-Bilt® Storm™ 2890 Two-Stage Snow Blower and
@@ -151,7 +146,7 @@ export default function Promotion({}) {
 					credited to your account. Does not apply to prior or future purchases.
 					No cash value, except where prohibited. Promotion is subject to
 					change. Other restrictions may apply.
-				</p>
+				</p> */}
 			</div>
 		</div>
 	);

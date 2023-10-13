@@ -1,0 +1,48 @@
+{
+	"products": [
+		{
+			"title": "Storm™ 2420 Snow Blower",
+			"sub": "Two-Stage",
+			"priceOrig": "999.00",
+			"priceSale": "949.00",
+			"desc": [
+				"28 in. clearing width and a 20 in. intake height powers through up to 12\" of snow",
+				"SelecTrac™ drive allows for good handling in hard-packed, icy snow or on gravel driveways",
+				"Heated hand grips help provide comfort in cold weather"
+			]
+		},
+		{
+			"title": "Storm™ 2620 Snow Blower",
+			"sub": "Two-Stage",
+			"priceOrig": "1,199.00",
+			"priceSale": "1,149.00",
+			"desc": [
+				"26 in. clearing width and 20 in. intake height powers through up to 12\" of snow",
+				"In-dash LED headlight helps provide visibility in low-light conditions",
+				"Delivers reliable power through a Troy-Bilt 243cc engine with push-button electric start"
+			]
+		},
+		{
+			"title": "Storm Tracker™ 2890 Snow Blower",
+			"sub": "Two-Stage",
+			"priceOrig": "1,899.00",
+			"priceSale": "1,849.00",
+			"desc": [
+				"24\" clearing width and 20\" intake height is designed to handle up to 12\" of snowfall",
+				"Two-stage technology uses steel augers to break up snow and a high-speed steel impeller to propel it out of the chute",
+				"Make quick work of clearing snow with the powerful serrated augers and an extended chute designed to minimize snow blowback"
+			]
+		},
+		{
+			"title": "Storm™ 3090 Snow Blower",
+			"sub": "Two-Stage",
+			"priceOrig": "1,599.00",
+			"priceSale": "1,549.00",
+			"desc": [
+				"30 in. clearing width and a 20 in. intake height powers through up to 12\" of snow",
+				"Powered by a Troy-Bilt 357cc OHV engine equipped with push-button electric start",
+				"Heated hand grips help provide comfort in cold weather"
+			]
+		}
+	]
+}
