@@ -36,7 +36,7 @@ export default function Promotion({}) {
 													"Shop a wide selection of discounted products",
 											},
 											img: {
-												src: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/fall-sale-2023/31AS6KM2B66_Storm2425_env2.jpg",
+												src: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/fall-sale-2023/41AR51BP766_TB51BP_env2.jpg",
 												style: { objectFit: "cover", objectPosition: "middle" },
 											},
 										}}
