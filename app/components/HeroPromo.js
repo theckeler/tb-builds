@@ -35,9 +35,9 @@ export default function HeroPromo({ content, img }) {
 				<div className="copy-block">
 					<div
 						className="hero-body"
-						style={{ fontSize: 22, lineHeight: "1.05" }}>
-						{content.subTitle}
-					</div>
+						style={{ fontSize: 22, lineHeight: "1.05" }}
+						dangerouslySetInnerHTML={{ __html: content.subTitle }}
+					/>
 					<div className="hero-body">
 						<p
 							className="font-weight-normal"
