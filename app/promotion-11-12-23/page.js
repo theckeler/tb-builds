@@ -49,7 +49,7 @@ export default function Promotion({}) {
 									<HeroPromo
 										{...{
 											content: {
-												saleTitle: "Winter Sale",
+												catTitle: "Winter Sale",
 												title: "Limited Time Offers:",
 												subTitle:
 													"Save $100 on the Storm 2420<sup>*</sup><br />Save $50 on Other Select Models<sup>**</sup>",
@@ -57,6 +57,7 @@ export default function Promotion({}) {
 											},
 											img: {
 												src: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/promotion-10-19-23/31CM6CP3B66_Storm2620_env.jpg",
+												className: "h-100 w-100",
 												style: { objectFit: "cover", objectPosition: "top" },
 											},
 										}}

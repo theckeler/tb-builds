@@ -1,8 +1,6 @@
 "use client";
 
-// import Button from "@/components/Button";
 import SearchResults from "./SearchResults";
-import ResponsiveImage from "../components/ResponsiveImage";
 import HeroPromo from "@/components/HeroPromo";
 
 export default function Promotion({}) {
@@ -49,12 +47,12 @@ export default function Promotion({}) {
 									<HeroPromo
 										{...{
 											content: {
-												//saleTitle: "Winter Sale",
 												title: '42" and 46" Riding Mowers',
-												copy: "Troy-Bilt<sup>®</sup> riding lawn mowers include a variety of features to help tackle your yard. The 42-in. and 46-in. models feature hydrostatic transmissions, durable decks, and powerful engines.",
+												copy: "Troy-Bilt<sup>®</sup> riding lawn mowers are designed with features to help you tackle yard work. The 42-in. and 46-in. riding mowers feature smooth operating transmissions, rugged steel cutting decks, and powerful engines that help the work get done quickly.",
 											},
 											img: {
-												src: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/42inch-and-46inch-riding-mowers/13AQA1BL066_SuperBronco50XP_env1.jpg",
+												src: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/42inch-and-46inch-riding-mowers/13AL78BTA66_Bronco46I_env2.jpg",
+												className: "h-100 w-100",
 												style: { objectFit: "cover" },
 											},
 										}}

@@ -1,14 +1,14 @@
 import ResponsiveImage from "../components/ResponsiveImage";
 
-export default function HeroPromo({ content, img }) {
+export default function HeroPromo({ content, img, style }) {
 	return (
-		<div className="hero-caro-container hero-content-right">
+		<div className="hero-caro-container hero-content-right" style={style}>
 			<div
 				className="position-relative"
 				style={{ minHeight: "550px", overflow: "hidden" }}>
 				<ResponsiveImage
 					src={img.src}
-					className="w-100 h-100 position-absolute"
+					className={`position-absolute ${img.className}`}
 					style={{ ...img.style }}
 					alt=""
 					hero
@@ -19,7 +19,7 @@ export default function HeroPromo({ content, img }) {
 				className="text-block bg-primary"
 				style={{ top: "0 !important", transform: "initial" }}>
 				<div className="intro-block">
-					<span className="label-1">{content.saleTitle}</span>
+					<span className="label-1">{content.catTitle}</span>
 				</div>
 				<div className="card-title">
 					<p
@@ -27,23 +27,31 @@ export default function HeroPromo({ content, img }) {
 						style={{
 							fontSize: 36,
 							lineHeight: "1.05",
-							textTransform: "uppercase",
+							//	textTransform: "uppercase",
 						}}>
 						<span dangerouslySetInnerHTML={{ __html: content.title }} />
 					</p>
 				</div>
 				<div className="copy-block">
-					<div
-						className="hero-body"
-						style={{ fontSize: 22, lineHeight: "1.05" }}
-						dangerouslySetInnerHTML={{ __html: content.subTitle }}
-					/>
-					<div className="hero-body">
+					{content.subTitle && (
 						<p
-							className="font-weight-normal"
+							className="hero-body"
+							style={{ fontSize: 22, lineHeight: "1.05" }}
+							dangerouslySetInnerHTML={{ __html: content.subTitle }}
+						/>
+					)}
+					{content.copy && (
+						<p
+							className="hero-body font-weight-normal"
 							dangerouslySetInnerHTML={{ __html: content.copy }}
 						/>
-					</div>
+					)}
+					{content.details && (
+						<p
+							className="hero-body font-weight-normal mb-0"
+							dangerouslySetInnerHTML={{ __html: content.details }}
+						/>
+					)}
 				</div>
 			</div>
 		</div>
