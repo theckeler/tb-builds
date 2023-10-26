@@ -2,7 +2,7 @@
 import { Fragment } from "react";
 
 export default function Faqs({ faqs, className, id, allOpen }) {
-	let schema = {
+	let schemea = {
 		"@context": "https://schema.org",
 		"@type": "FAQPage",
 	};
@@ -17,7 +17,7 @@ export default function Faqs({ faqs, className, id, allOpen }) {
 			},
 		];
 	});
-	schema = { ...schema, mainEntity: mainEntity };
+	schemea = { ...schemea, mainEntity: mainEntity };
 
 	const Button = ({ block }) =>
 		allOpen ? (
@@ -34,12 +34,13 @@ export default function Faqs({ faqs, className, id, allOpen }) {
 					const el = e.currentTarget.querySelector(".rotate-45");
 					e.currentTarget.nextElementSibling.classList.toggle("hidden");
 					el.classList.toggle("active");
+
 					el.style.transform = el.classList.contains("active")
 						? "rotate(0)"
 						: "rotate(45deg)";
 				}}
-				className="text-left question cursor-pointer w-100 p-1 border-0 bg-transparent"
-				style={{ cursor: "pointer", fontSize: "1.1em" }}>
+				className={`text-left question cursor-pointer w-100 p-1 border-0 bg-transparent ${block.className}`}
+				style={{ cursor: "pointer", fontSize: "1.1em", textTransform: "none" }}>
 				<ul className="list-unstyled d-flex items-center w-100 mb-1 mb-0">
 					<li
 						dangerouslySetInnerHTML={{
@@ -76,7 +77,7 @@ export default function Faqs({ faqs, className, id, allOpen }) {
 			})}
 			<script
 				type="application/ld+json"
-				dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(schemea) }}
 			/>
 		</div>
 	);

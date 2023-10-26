@@ -22,7 +22,7 @@ const WarrantyFaqs = () => {
 
 			{/* copyBlock */}
 			<section className="mt-0 mb-0 text-white bg-primary">
-				<div className="container p-3 text-left text-lg-center">
+				<div className="container p-3 text-center">
 					<h1 className="h1 d-block text-white">Warranty FAQs</h1>
 				</div>
 			</section>

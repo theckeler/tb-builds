@@ -2,7 +2,7 @@
 
 import HeroPromo from "@/components/HeroPromo";
 
-export default function Promotion({}) {
+export default function Promotion() {
 	return (
 		<div id="main">
 			<link
