@@ -46,7 +46,12 @@ const WarrantyFaqs = () => {
 			</section>
 
 			<section className="container">
-				<Faqs faqs={jsonData.faqs} id="warranty-faqs" className="p-2 p-lg-4" />
+				<Faqs
+					faqs={jsonData.faqs}
+					id="warranty-faqs"
+					className="font-bold"
+					style={{ fontSize: "1.375rem" }}
+				/>
 			</section>
 		</div>
 	);
