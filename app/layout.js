@@ -17,11 +17,12 @@ export default function RootLayout({ children }) {
 						rel="stylesheet"
 						href="https://www.troybilt.com/on/demandware.static/Sites-troybilt-Site/-/en_US/v1686589540276/css/global.css"
 					/>
-
 					<link
 						rel="stylesheet"
 						href="https://www.troybilt.com/on/demandware.static/Sites-troybilt-Site/-/en_US/v1685444750308/css/product/detail.css"
 					/>
+
+					<script src="https://cdn.tailwindcss.com" async />
 				</header>
 				{children}
 				<footer>
