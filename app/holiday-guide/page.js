@@ -61,7 +61,7 @@ const guide = [
 		},
 		heading: "A Classic for the New Homeowner",
 		title: "TB16R Reel Lawn Mower",
-		price: "$119.99",
+		price: "$104.00",
 		copy: `An excellent choice for first-time yard tenders, this classic push lawn mower features high front wheels for maneuverability and offers nine height adjustments for that perfect cut.`,
 		button: {
 			title: "Shop TB16R Reel Lawn Mower",
