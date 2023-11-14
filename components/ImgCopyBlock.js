@@ -1,5 +1,5 @@
 import Button from "./Button";
-import Video from "@/app/components/Video";
+import Video from "@/components/Video";
 
 const ImgCopyBlock = ({
 	block,

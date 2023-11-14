@@ -1,7 +1,7 @@
 "use client";
 
 import SearchResults from "./SearchResults";
-import HeroPromo from "../components/HeroPromo";
+import HeroPromo from "../../components/HeroPromo";
 
 export default function Promotion({}) {
 	return (

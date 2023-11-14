@@ -1,7 +1,7 @@
 "use client";
 
-import Check from "@/app/components/icons/Check";
-import X from "@/app/components/icons/X";
+import Check from "@/components/icons/Check";
+import X from "@/components/icons/X";
 
 export default function ModelVerifyBlock({
 	modelNum,

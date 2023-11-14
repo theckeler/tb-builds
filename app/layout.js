@@ -1,6 +1,6 @@
-import Footer from "@/t/Footer";
-import Header from "@/t/Header";
-import "@/scss/main.scss";
+import Footer from "./templates/Footer";
+import Header from "./templates/Header";
+import "@/styles/globals.css";
 
 export const metadata = {
 	title: "Troybilt Builds",
@@ -21,8 +21,6 @@ export default function RootLayout({ children }) {
 						rel="stylesheet"
 						href="https://www.troybilt.com/on/demandware.static/Sites-troybilt-Site/-/en_US/v1685444750308/css/product/detail.css"
 					/>
-
-					<script src="https://cdn.tailwindcss.com" async />
 				</header>
 				{children}
 				<footer>

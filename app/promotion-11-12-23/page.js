@@ -2,7 +2,7 @@
 
 // import Button from "@/components/Button";
 import SearchResults from "./SearchResults";
-import ResponsiveImage from "../components/ResponsiveImage";
+import ResponsiveImage from "../../components/ResponsiveImage";
 import HeroPromo from "@/components/HeroPromo";
 
 export default function Promotion({}) {

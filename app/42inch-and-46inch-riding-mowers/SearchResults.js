@@ -1,6 +1,6 @@
 "use client";
 
-import ProductTile from "@/app/components/product";
+import ProductTile from "@/components/product";
 import jsonData from "./data.json";
 
 export default function SearchResults({}) {
@@ -752,11 +752,9 @@ export default function SearchResults({}) {
 										className="row product-grid"
 										itemType="http://schema.org/SomeProducts"
 										itemID="#product">
-										
-											{jsonData.products.map(function (block, i) {
-												return <ProductTile block={block} key={i} />;
-											})}
-									
+										{jsonData.products.map(function (block, i) {
+											return <ProductTile block={block} key={i} />;
+										})}
 									</div>
 								</div>
 							</div>

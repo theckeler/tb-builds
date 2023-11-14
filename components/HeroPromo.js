@@ -1,4 +1,4 @@
-import ResponsiveImage from "../components/ResponsiveImage";
+import ResponsiveImage from "./ResponsiveImage";
 
 export default function HeroPromo({ content, img, style }) {
 	return (

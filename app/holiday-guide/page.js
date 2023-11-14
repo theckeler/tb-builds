@@ -1,5 +1,5 @@
 import ResponsiveImage from "@/components/ResponsiveImage";
-import GuideBlock from "../components/GuideBlock";
+import GuideBlock from "../../components/GuideBlock";
 
 const guide = [
 	{
@@ -97,6 +97,8 @@ const guide = [
 		href: "https://www.troybilt.com/en_US/trimmerplus",
 		img: {
 			src: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/holiday-guide/PLB-TrimmerPlus_Feature1_TrimmerPlus_desktop_492x350.jpg",
+			className: "py-[3.4rem]",
+			//style: { minHeight: "389.66px" },
 		},
 		heading: "When You Can’t Pick Just One",
 		title: "TrimmerPlus Attachments",
@@ -109,7 +111,8 @@ const guide = [
 	{
 		href: "https://www.troybilt.com/en_US/trimmerplus",
 		img: {
-			src: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/holiday-guide/cc-td-card.jpg",
+			src: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/holiday-guide/Troy-Bilt_Card_Flat_1023.jpg",
+			className: "py-[4.3rem]",
 		},
 		heading: "Financing Offers Just for You",
 		title: "Troy-Bilt Financing",
@@ -123,13 +126,14 @@ const guide = [
 
 export default function HolidayGuide({ children }) {
 	return (
-		<>
+		<div id="sdb-container">
 			<section>
-				<div className="relative min-h-[30rem]">
+				<div>
 					<ResponsiveImage
 						src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/holiday-guide/hero.jpg"
 						alt=""
 						id="hero"
+						hero
 						//className="w-full h-full absolute top-0 left-0 object-cover"
 						className="w-full h-auto"
 					/>
@@ -137,22 +141,24 @@ export default function HolidayGuide({ children }) {
 			</section>
 
 			<section className="bg-secondary">
-				<h1 className="container text-center mb-0 text-uppercase px-2 py-4 text-white">
-					Cub Cadet<sup>®</sup> Holiday Gift Guide
+				<h1
+					className="container text-center mb-0 text-uppercase px-2 py-4 text-white"
+					style={{ fontSize: "2.125rem" }}>
+					Troy-Bilt<sup>®</sup> Holiday Gift Guide
 				</h1>
 			</section>
 
 			<section className="container mt-4">
-				<ul className="grid grid-cols-3 gap-2 ">
+				<ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 ">
 					{guide.map((block, i) => {
 						return (
 							<li className="bg-[#efefef]" key={i}>
-								<GuideBlock block={block} />
+								<GuideBlock {...block} />
 							</li>
 						);
 					})}
 				</ul>
 			</section>
-		</>
+		</div>
 	);
 }
