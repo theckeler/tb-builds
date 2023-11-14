@@ -1,5 +1,5 @@
 import ResponsiveImage from "@/components/ResponsiveImage";
-import GuideBlock from "../../components/GuideBlock";
+import GuideBlock from "@/components/GuideBlock";
 
 const guide = [
 	{
@@ -81,7 +81,7 @@ const guide = [
 		},
 	},
 	{
-		href: "https://www.troybilt.com/en_US/cultivators/tb225-garden-cultivator/21BK225G766.html",
+		href: "https://www.troybilt.com/en_US/chainsaws/tb25ps-25cc-10inch-gas-pole-saw/41CD25PS766.html",
 		img: {
 			src: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/holiday-guide/Troy-Bilt_TB25PS_2000x2000_1.jpg",
 		},
@@ -116,7 +116,6 @@ const guide = [
 		},
 		heading: "Financing Offers Just for You",
 		title: "Troy-Bilt Financing",
-		//price: "$219.00",
 		copy: `Get special financing on online purchases of new Troy-Bilt equipment, parts and accessories with the Troy-Bilt credit card. Restrictions apply.`,
 		button: {
 			title: "Learn More",
