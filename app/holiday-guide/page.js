@@ -124,18 +124,18 @@ const guide = [
 	},
 ];
 
-export default function HolidayGuide({ children }) {
+export default function HolidayGuide({}) {
 	return (
 		<div id="sdb-container">
-			<section>
-				<div>
+			<section className="overflow-hidden bg-black">
+				<div className="relative h-96">
 					<ResponsiveImage
-						src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/holiday-guide/hero.jpg"
+						src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/holiday-guide/PLLSNOW_StormTracker2690.jpg"
 						alt=""
 						id="hero"
 						hero
 						//className="w-full h-full absolute top-0 left-0 object-cover"
-						className="w-full h-auto"
+						className="w-full h-full object-cover object-center"
 					/>
 				</div>
 			</section>
