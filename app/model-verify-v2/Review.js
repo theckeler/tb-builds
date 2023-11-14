@@ -1,4 +1,4 @@
-import StarsReview from "@/c/StarsReview";
+import StarsReview from "@/components/StarsReview";
 
 export default function Review({ className }) {
 	return (

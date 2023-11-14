@@ -6,7 +6,7 @@ import WillFit from "./results/WillFit";
 import InStock from "./stock/InStock";
 import Backorder from "./stock/Backorder";
 
-import "./css/style.scss";
+// import "./css/style.scss";
 
 export default function ModelVerify({ fit, inStockCheck }) {
 	console.log(fit);

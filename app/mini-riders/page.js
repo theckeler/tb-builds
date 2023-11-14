@@ -3,16 +3,16 @@ import React, { useState, useEffect } from "react";
 
 import jsonDataUS from "./home.json";
 
-import IconCopyBlock from "@/c/IconCopyBlock";
-import QuoteBlock from "@/c/QuoteBlock";
-import HowToMaintence from "@/c/HowToMaintence";
-// import Articles from "@/c/Articles";
-import ProductBlock from "@/c/ProductBlock";
-import ImgCopyBlock from "@/c/ImgCopyBlock";
-// import Button from "@/c/Button";
-import HeroImg from "@/c/HeroImg";
-//import BuildMenu from "@/c/BuildMenu";
-import Faqs from "@/c/Faqs";
+import IconCopyBlock from "@/components/IconCopyBlock";
+import QuoteBlock from "@/components/QuoteBlock";
+import HowToMaintence from "@/components/HowToMaintence";
+// import Articles from "@/components/Articles";
+import ProductBlock from "@/components/ProductBlock";
+import ImgCopyBlock from "@/components/ImgCopyBlock";
+// import Button from "@/components/Button";
+import HeroImg from "@/components/HeroImg";
+//import BuildMenu from "@/components/BuildMenu";
+import Faqs from "@/components/Faqs";
 import CTABlock from "@/components/CTABlock";
 
 const XTEnduroSeriesHome = () => {

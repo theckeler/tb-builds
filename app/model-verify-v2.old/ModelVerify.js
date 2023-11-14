@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-import "@/scss/model-verify.scss";
+// import "@/scss/model-verify.scss";
 import InStock from "@/components/icons/InStock";
 import Check from "@/components/icons/Check";
 import Backordered from "@/components/icons/Backordered";
