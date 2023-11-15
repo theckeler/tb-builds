@@ -37,11 +37,11 @@ export default function GuideBlock({
 			<p className="">{price}</p>
 			<p className="">{copy}</p>
 			<div className="mt-auto">
-				<button
+				<div
 					className="btn bg-primary w-full text-white mt-2"
 					style={{ padding: "0.9375rem 1.5625rem" }}>
 					{button.title}
-				</button>
+				</div>
 			</div>
 		</a>
 	);

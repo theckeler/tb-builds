@@ -3,7 +3,7 @@ import GuideBlock from "@/components/GuideBlock";
 
 const guide = [
 	{
-		href: "https://www.troybilt.com/en_US/gift-guide-2023.html#:~:text=SHOP-,SQUALL,-123R",
+		href: "https://www.troybilt.com/en_US/single-stage-snow-blowers/squall-123r-snow-blower/31A-2M5GB66.html",
 		img: {
 			src: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/holiday-guide/Troy-Bilt_Squall123R_10.jpg",
 		},
@@ -29,7 +29,7 @@ const guide = [
 		},
 	},
 	{
-		href: "https://www.troybilt.com/en_US/gift-guide-2023.html#:~:text=fast%20and%20fun.-,SHOP,-TB400",
+		href: "https://www.troybilt.com/en_US/chainsaws/tb4214-14inch-gas-chainsaw/41AY4214766.html",
 		img: {
 			src: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/holiday-guide/Troy-Bilt_TB4214_2000x2000_1.jpg",
 		},
@@ -109,7 +109,7 @@ const guide = [
 		},
 	},
 	{
-		href: "https://www.troybilt.com/en_US/trimmerplus",
+		href: "https://www.troybilt.com/en_US/financing",
 		img: {
 			src: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/holiday-guide/Troy-Bilt_Card_Flat_1023.jpg",
 			className: "py-[4.3rem]",
@@ -126,10 +126,10 @@ const guide = [
 export default function HolidayGuide({}) {
 	return (
 		<div id="sdb-container">
-			<section className="overflow-hidden bg-black">
-				<div className="relative h-96">
+			<section className="overflow-hidden">
+				<div className="relative xl:h-[28rem]">
 					<ResponsiveImage
-						src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/holiday-guide/PLLSNOW_StormTracker2690.jpg"
+						src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/holiday-guide/hero.jpg"
 						alt=""
 						id="hero"
 						hero
