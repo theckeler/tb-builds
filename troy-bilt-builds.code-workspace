@@ -5,5 +5,8 @@
 			"name": "Troy-Bilt Builds"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"window.title": "${folderName}",
+		"window.commandCenter": false
+	}
 }

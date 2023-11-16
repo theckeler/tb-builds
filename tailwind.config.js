@@ -6,8 +6,9 @@ module.exports = {
 		"./components/**/*.{js,ts,jsx,tsx,mdx}",
 		"./app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
-	theme: {
-		extend: {},
-	},
+	theme: {},
 	plugins: [],
+	corePlugins: {
+		borderOpacity: false,
+	},
 };
