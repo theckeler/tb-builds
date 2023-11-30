@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 
 import Articles from "@/components/ArticlesV2";
-import AttchmentsAccessories from "@/components/AttchmentsAccessories copy";
+import AttchmentsAccessories from "@/components/AttchmentsAccessoriesV2";
 import Faqs from "@/components/Faqs";
 import RelatedLinks from "@/components/RelatedLinks";
 import ResponsiveImage from "@/components/ResponsiveImage";
