@@ -13,8 +13,9 @@ const lineup = [
   {
     url: "https://www.troybilt.com/en_US/snow-blowers/single-stage-snow-blowers",
     img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/Troy-Bilt_Squall179E_3.jpg",
-    title: "1X Single-Stage Snow Blowers",
-    copy: "Engineered to use a high-performance auger to quickly and easily remove up to 6 inches of snow from small, smooth areas.",
+    alt: "",
+    title: "Single-Stage Snow Blowers",
+    copy: "For a light, powdery snow, Troy-Bilt single-stage, lightweight snow blowers wipe the ground clean, leaving very little snow behind – ideal for solid pavement or sidewalks.",
     engFor: [
       {
         title: "Snowfall",
@@ -33,14 +34,15 @@ const lineup = [
       },
     ],
     button: {
-      copy: "Explore 1X snow blowers",
+      copy: "Shop All Single-Stage Snow Blowers",
     },
   },
   {
     url: "https://www.troybilt.com/en_US/snow-blowers/two-stage-snow-blowers",
     img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/Troy-Bilt_Storm3090_13.jpg",
-    title: "2X Two-Stage Snow Blowers",
-    copy: "Engineered for clearing between 12-18 inches in powder and slush. If you measure snow in feet instead of inches, step up to the commercial-grade features on the 2X MAX.",
+    alt: "Troy-Bilt two-stage, walk-behind snow blower product image",
+    title: "Two-Stage Snow Blowers",
+    copy: "One of the best options for heavy, wet snow, our two-stage, walk-behind snow blowers can handle deep snowfalls on a variety of surface.",
     engFor: [
       {
         title: "Snowfall",
@@ -59,14 +61,15 @@ const lineup = [
       },
     ],
     button: {
-      copy: "Explore 2X snow blowers",
+      copy: "Shop All Two-Stage Snow Blowers",
     },
   },
   {
     url: "https://www.troybilt.com/en_US/snow-blowers/three-stage-snow-blowers",
     img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/Troy-Bilt_Vortex%202610_13.jpg",
-    title: "3X Three-Stage Snow Blowers",
-    copy: "Engineered to clear deep snowfall faster than 2X models with its patented three-stage system. Designed to easily remove up to 23 inches of snowfall and bust through tough snow barriers.",
+    alt: "Man walking behind Troy-Bilt three-stage, heavy duty snow blower clearing sidewalk of snow",
+    title: "Three-Stage Snow Blowers",
+    copy: "Designed to clear anything Mother Nature can throw at you, our three-stage, heavy duty snow blowers can clear the wettest, heaviest snow.",
     engFor: [
       {
         title: "Snowfall",
@@ -85,7 +88,7 @@ const lineup = [
       },
     ],
     button: {
-      copy: "Explore 3X snow blowers",
+      copy: "Explore all Three-Stage Snow Blowers",
     },
   },
 ];
@@ -246,47 +249,10 @@ export default function SnowV2({}) {
       <div className="upper">
         <section className="relative section-1 d-flex flex-column align-items-stretch">
           <div className="relative min-h-[600px]">
-            {/* <div className="mb-0 container px-0 relative z-10 min-h-[600px]">
-							<div className="absolute top-2 lg:top-auto lg:bottom-8 lg:right-8 w-full lg:max-w-[480px] px-8 px-lg-0">
-								{addPromo && (
-									<>
-										<a
-											className="d-block text-white bg-black no-underline"
-											href="https://www.cubcadet.com/en_US/financing"
-											aria-label="See Details">
-											<ul className="mb-0 list-unstyled grid grid-cols-[80px_1fr_120px] gap-2 items-stretch p-1">
-												<li className="overflow-hidden relative">
-													<ResponsiveImage
-														id="financing-18"
-														src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/cub-cadet-credit-card-new.jpg"
-														alt=""
-														className="position-absolute w-full h-full top-0 left-0  object-contain min-w-[60px]"
-													/>
-												</li>
-												<li className="px-0 font-bold text-center lg:text-left">
-													<span style={{ fontSize: "1.2em" }}>
-														18 Month Financing Available
-													</span>
-													<br />
-													<small>Restrictions apply</small>
-												</li>
-												<li className="">
-													<Button
-														copy="Learn More"
-														className="p-1 border-0 bg-secondary w-full h-full text-black"
-													/>
-												</li>
-											</ul>
-										</a>
-									</>
-								)}
-							</div>
-						</div> */}
-
             <ResponsiveImage
               id="hero"
               src="https://outdoorecommassets.sbdcdn.sbd-prod.com//ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/PLLSNOW_StormTracker2690_desktop_1540x630.jpg"
-              alt=""
+              alt="Person walking behind a Troy-Bilt gas powered snow blower clearing their driveway"
               className="h-full w-full position-absolute object-cover top-0 left-0"
               hero
             />
@@ -295,13 +261,12 @@ export default function SnowV2({}) {
 
         <section className="bg-black d-flex flex-column">
           <div className="wrapper text-center text-white p-2 lg:px-52 py-4 lg:py-10">
-            <h1 className="text-white">Explore Snow Blowers</h1>
+            <h1 className="text-white">Explore Gas Powered Snow Blowers</h1>
             <p className="lg:px-48 mt-1 lg:mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              non odio tristique, sollicitudin nibh id, efficitur nulla. Cras
-              varius hendrerit arcu, ut ornare tortor feugiat vel. Fusce eget
-              lacus ante. Phasellus id nunc nec lectus eleifend tincidunt vitae
-              vel eros.
+              Whether you get light snowfalls, more than a foot of heavy, wet
+              snow, or get it worse than anyone else, there’s a Troy-Bilt®
+              gaspowered snow blower to clear the way. Use our product finder
+              quiz to help you choose the right snow blower.
             </p>
           </div>
         </section>
@@ -329,31 +294,6 @@ export default function SnowV2({}) {
         <section className="snow-picker">
           <div id="snow-blower-product-finder" />
         </section>
-
-        {/* <section className="relative mb-6 flex flex-col-reverse">
-					<div className="container relative z-10 pt-2 lg:pt-14 lg:pb-64">
-						<QuoteBlock
-							quote={{
-								stars: 5,
-								img: "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Sites-cubcadet-Library/default/vde16d024a27b8e0c81e1c6e963f0a6bf041c9496/snow-v2/31AH5EVZ596_3X30HD_Env03.jpg",
-								title: "THIS THING WAS A BEAST.",
-								copy: "“We just had our first blizzard of the season. No problem clearing our property, and helped a couple neighbors too. Over a foot of wet heavy snow and it did not intimidate this Cub.”",
-								name: "Ryan from Sioux City, IA",
-								unit: "3X<sup>®</sup> 30” HD",
-							}}
-							className="bg-white lg:p-4 lg:max-w-[40rem]"
-						/>
-					</div>
-
-					<ResponsiveImage
-						src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/31AH5EVZ596_3X30HD_Env03.jpg"
-						// webp="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/31AH5EVZ596_3X30HD_Env03.webp"
-						alt=""
-						id="snowguy"
-						className="lg:absolute top-0 left-0 z-0 w-full h-full object-cover"
-						hero={false}
-					/>
-				</section> */}
 
         <section className="mb-8">
           <div className="container">
@@ -460,80 +400,6 @@ export default function SnowV2({}) {
         numRows={4}
         className="container mt-8"
       />
-
-      {/* <AttchmentsAccessories
-				className="container mt-8"
-				imgType={imgType}
-				attAcc={{
-					h2: "Snow Blower Attachments & Accessories",
-					blocks: [
-						{
-							img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/490-241-0032.jpg",
-							title: "Universal Cab",
-							item: "490-241-0032",
-							price: "$132.99",
-							url: "https://www.cubcadet.com/en_US/snow-blower-accessories/snow-blower-cab/490-241-0032.html#q=490-241-0032&lang=en_US&start=0",
-							res: (
-								<ResponsiveImage src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/490-241-0032.jpg" />
-							),
-							orig: (
-								<img
-									src="https://www.cubcadet.com/en_US/snow-blower-accessories/snow-blower-cab/490-241-0032.html?fitsOnModel=false"
-									alt=""
-								/>
-							),
-						},
-						{
-							img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/490-290-0010_1.jpg",
-							title: "Snow Blower Cover",
-							item: "490-290-0010",
-							price: "$38.99",
-							url: "https://www.cubcadet.com/en_US/snow-blower-accessories/snow-blower-cover/490-290-0010.html#q=490-290-0010&lang=en_US&start=0",
-							res: (
-								<ResponsiveImage src="https://www.cubcadet.com/en_US/snow-blower-accessories/snow-blower-cover/490-290-0010.html#q=490-290-0010&lang=en_US&start=0" />
-							),
-							orig: (
-								<img
-									src="https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw2a0b010e/products/Attachments_Accessories/490-290-0010_1.jpg?sw=280&sh=280&sm=fit"
-									alt=""
-								/>
-							),
-						},
-						{
-							img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/OEM-390-679.jpg",
-							title: "Drift Cutter Kit",
-							item: "OEM-390-679",
-							price: "$41.99",
-							url: "https://www.cubcadet.com/en_US/snow-blower-accessories/drift-cutter-kit/OEM-390-679.html#q=OEM-390-679&lang=en_US&start=0",
-							res: (
-								<ResponsiveImage src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/OEM-390-679.jpg" />
-							),
-							orig: (
-								<img
-									src="https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw32dc42ff/products/Attachments_Accessories/OEM-390-679.jpg?sw=280&sh=280&sm=fit"
-									alt=""
-								/>
-							),
-						},
-						{
-							img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/753-08629.jpg",
-							title: "LED Light Bar Kit",
-							item: "753-08629A",
-							price: "$135.89",
-							url: "https://www.cubcadet.com/en_US/snow-blower-accessories/led-light-bar-kit/753-08629A.html#q=753-08629A&lang=en_US&start=0",
-							res: (
-								<ResponsiveImage src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/753-08629.jpg" />
-							),
-							orig: (
-								<img
-									src="https://www.cubcadet.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw301fe215/products/753-08629.jpg?sw=280&sh=280&sm=fit"
-									alt=""
-								/>
-							),
-						},
-					],
-				}}
-			/> */}
 
       <RelatedLinks
         relatedCats={{
