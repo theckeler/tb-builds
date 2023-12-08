@@ -15,7 +15,7 @@ const lineup = [
     img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/Troy-Bilt_Squall179E_3.jpg",
     alt: "",
     title: "Single-Stage Snow Blowers",
-    copy: "For a light, powdery snow, Troy-Bilt single-stage, lightweight snow blowers wipe the ground clean, leaving very little snow behind – ideal for solid pavement or sidewalks.",
+    copy: "Troy-Bilt single-stage snow blowers are designed to clear light, powdery snow. They’re maneuverable, lightweight, and come with helpful features like push-button electric start.",
     engFor: [
       {
         title: "Snowfall",
@@ -42,7 +42,7 @@ const lineup = [
     img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/Troy-Bilt_Storm3090_13.jpg",
     alt: "Troy-Bilt two-stage, walk-behind snow blower product image",
     title: "Two-Stage Snow Blowers",
-    copy: "One of the best options for heavy, wet snow, our two-stage, walk-behind snow blowers can handle deep snowfalls on a variety of surface.",
+    copy: "Designed to tackle heavy, wet snow, Troy-Bilt two-stage models can handle deep snowfalls on a variety of surfaces. Select models include Just One Hand™ operation and trigger-controlled power steering.",
     engFor: [
       {
         title: "Snowfall",
@@ -69,7 +69,7 @@ const lineup = [
     img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/Troy-Bilt_Vortex%202610_13.jpg",
     alt: "Man walking behind Troy-Bilt three-stage, heavy duty snow blower clearing sidewalk of snow",
     title: "Three-Stage Snow Blowers",
-    copy: "Designed to clear anything Mother Nature can throw at you, our three-stage, heavy duty snow blowers can clear the wettest, heaviest snow.",
+    copy: "These powerful machines crush snow and ice with a third-stage accelerator and come equipped with a heavy duty, fully sealed gearbox and large, powerful engines to take on the heaviest snow.",
     engFor: [
       {
         title: "Snowfall",
@@ -97,22 +97,22 @@ const machineExtreme = [
   {
     icon: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/icon-chute-control.svg",
     title: "Easy chute control",
-    copy: "Throw snow in any direction with easy pitch and chute control from the operator’s station.",
+    copy: "Adjust the direction of the snow discharge up to 190-degrees.",
   },
   {
     icon: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/icon-light.svg",
     title: "Improved Visibility",
-    copy: "Designed to help you see at dawn or dusk with headlights that shine bright and far.",
+    copy: "LED headlights provide visibility in low light conditions.",
   },
   {
     icon: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/icon-push-button.svg",
     title: "Push-button electric start",
-    copy: "Eliminate pull starts and start blowing snow quickly with push-button electric start.",
+    copy: "Start your machine at the push of the button instead of pulling a cord.",
   },
   {
     icon: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/icon-speed.svg",
     title: "Move at your speed",
-    copy: "A high-performance auger-propelled drive system designed to work at your pace.",
+    copy: "AugerAssist™ single-stage drive system is designed to grip the ground for minimal pushing effort and maximum clearing capabilities.",
   },
 ];
 
@@ -261,12 +261,13 @@ export default function SnowV2({}) {
 
         <section className="bg-black d-flex flex-column">
           <div className="wrapper text-center text-white p-2 lg:px-52 py-4 lg:py-10">
-            <h1 className="text-white">Explore Gas Powered Snow Blowers</h1>
+            <h1 className="text-white">Explore Snow Blowers</h1>
             <p className="lg:px-48 mt-1 lg:mt-4">
-              Whether you get light snowfalls, more than a foot of heavy, wet
-              snow, or get it worse than anyone else, there’s a Troy-Bilt®
-              gaspowered snow blower to clear the way. Use our product finder
-              quiz to help you choose the right snow blower.
+              Whether you experience a light snowfall or a heavy story,
+              Troy-Bilt® is here to help with single-, two-, and three-stage gas
+              powered snow blowers designed to help clear the way during winter.
+              Our product finder can help you find the right snow blower for
+              your needs.
             </p>
           </div>
         </section>
