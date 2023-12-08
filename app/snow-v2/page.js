@@ -375,7 +375,7 @@ export default function SnowV2({}) {
             {
               title: "Snow Blower Maintenance Schedule",
               copy: "Come winter, snow blowers take the form of seasonal lifelines, keeping walkways and paths free of snow, and preventing buildup and dangerous outdoor conditions. And depending on geographic locations, a snow blower's use can vary greatly - from several times a season to a dozen-plus.",
-              url: "hthttps://www.troybilt.com/en_US/knowledge-tb-snow-blower-maintenance-schedule-and-tips.html",
+              url: "https://www.troybilt.com/en_US/knowledge-tb-snow-blower-maintenance-schedule-and-tips.html",
               res: (
                 <ResponsiveImage
                   src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/182_HowDoITroubleshoot_1100x572.jpg"
@@ -385,7 +385,7 @@ export default function SnowV2({}) {
               ),
             },
             {
-              title: "Snow Blower Troubleshooting Tip",
+              title: "Snow Blower Troubleshooting Tips",
               copy: "Winter can be filled with intense weather conditions that place snow removal at the top of many to-do lists all season long. While snow blowers are often used to clear snow quickly and easily, unanticipated equipment issues can occur, setting you back on time, as ice and snow continue to build up outdoors.",
               url: "https://www.troybilt.com/en_US/knowledge-tb-snow-blower-troubleshooting-tips.html",
               res: (
@@ -505,7 +505,7 @@ export default function SnowV2({}) {
             },
             {
               question: "Do I need a single, two, or three-stage snow blower?",
-              answer: `There are three types of snow blowers. The more stages, the more snow the machine can handle (when compared to a comparable model). Troy-Bilt <a href="https://www.troybilt.com/en_US/snow-blowers/single-stage-snow-blowers">Single-Stage Snow Blowers</a> are ideal for up to 6-inches of snowfall, <a href="https://www.troybilt.com/en_US/snow-blowers/two-stage-snow-blowers">Two-Stage Snow Blowers</a> are great for up to 12-inches of snowfall and <a href="https://www.troybilt.com/en_US/snow-blowers/three-stage-snow-blowers">Three-Stage Snow Blowers</a> can handle up to 18-inches of snowfall. Single-stage snow blowers are ideal for smaller jobs like walkways and short driveways. They are light, compact and easy to handle. But if you get more snow, have unpaved surfaces with inclines or a longer driveway, you’ll want to consider a 2-stage or 3-stage snow blower that will help clear larger volumes in larger areas. This snow <a href="https://www.troybilt.com/en_US/troy-bilt-snow-blower-buying-guide.html">blower buyer’s guide</a> goes into more detail or use our <a href="https://www.troybilt.com/en_US/product-finder-snow-blowers-tb.html">snow blower product finder</a> for additional guidance.`,
+              answer: `There are three types of snow blowers. The more stages, the more snow the machine can handle (when compared to a comparable model). Troy-Bilt <a href="https://www.troybilt.com/en_US/snow-blowers/single-stage-snow-blowers">Single-Stage Snow Blowers</a> are ideal for up to 6-inches of snowfall, <a href="https://www.troybilt.com/en_US/snow-blowers/two-stage-snow-blowers">Two-Stage Snow Blowers</a> are great for up to 12-inches of snowfall and <a href="https://www.troybilt.com/en_US/snow-blowers/three-stage-snow-blowers">Three-Stage Snow Blowers</a> can handle up to 18-inches of snowfall. Single-stage snow blowers are ideal for smaller jobs like walkways and short driveways. They are light, compact and easy to handle. But if you get more snow, have unpaved surfaces with inclines or a longer driveway, you’ll want to consider a 2-stage or 3-stage snow blower that will help clear larger volumes in larger areas. This <a href="https://www.troybilt.com/en_US/troy-bilt-snow-blower-buying-guide.html">snow blower buyer’s guide</a> goes into more detail or use our <a href="https://www.troybilt.com/en_US/product-finder-snow-blowers-tb.html">snow blower product finder</a> for additional guidance.`,
             },
             {
               question: "How do I finance a Troy-Bilt snow blower?",
