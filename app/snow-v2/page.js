@@ -15,7 +15,7 @@ const lineup = [
     img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/Troy-Bilt_Squall179E_3.jpg",
     alt: "",
     title: "Single-Stage Snow Blowers",
-    copy: "Troy-Bilt single-stage snow blowers are designed to clear light, powdery snow. They’re maneuverable, lightweight, and come with helpful features like push-button electric start.",
+    copy: "Troy-Bilt single-stage snow blowers are designed to clear light, powdery snow. They’re maneuverable, lightweight, and come with helpful features.",
     engFor: [
       {
         title: "Snowfall",
@@ -47,7 +47,7 @@ const lineup = [
       {
         title: "Snowfall",
         img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/icon-snowfall-up-18.svg",
-        copy: 'Up to 18" <br><small>(18–23" for EFI and MAX<sup>™</sup> units)</small>',
+        copy: 'Up to 12" of snow',
       },
       {
         title: "Driveway",
@@ -69,12 +69,12 @@ const lineup = [
     img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/Troy-Bilt_Vortex%202610_13.jpg",
     alt: "Man walking behind Troy-Bilt three-stage, heavy duty snow blower clearing sidewalk of snow",
     title: "Three-Stage Snow Blowers",
-    copy: "These powerful machines crush snow and ice with a third-stage accelerator and come equipped with a heavy duty, fully sealed gearbox and large, powerful engines to take on the heaviest snow.",
+    copy: "These powerful machines crush snow and ice with a third-stage accelerator and come equipped with a heavy duty, fully sealed gearbox and large, powerful engines to take on heavy snow.",
     engFor: [
       {
         title: "Snowfall",
         img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/icon-snowfall-up-23.svg",
-        copy: 'Up to 23"',
+        copy: 'Up to 18"of snow',
       },
       {
         title: "Driveway",
@@ -97,22 +97,22 @@ const machineExtreme = [
   {
     icon: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/icon-chute-control.svg",
     title: "Easy chute control",
-    copy: "Adjust the direction of the snow discharge up to 190-degrees.",
+    copy: "Troy-Bilt offers EZ-Chute™ control with 190-degree rotation on single-stage models.",
   },
   {
     icon: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/icon-light.svg",
     title: "Improved Visibility",
-    copy: "LED headlights provide visibility in low light conditions.",
+    copy: "Headlight provides visibility in low light conditions on select models",
   },
   {
     icon: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/icon-push-button.svg",
     title: "Push-button electric start",
-    copy: "Start your machine at the push of the button instead of pulling a cord.",
+    copy: "Start your machine at the push of the button instead of pulling a cord on select models.",
   },
   {
     icon: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/icon-speed.svg",
-    title: "Move at your speed",
-    copy: "AugerAssist™ single-stage drive system is designed to grip the ground for minimal pushing effort and maximum clearing capabilities.",
+    title: "Quickly change direction",
+    copy: "Touch N' Turn™ Power Steering allows you to quickly adjust your direction with one finger on select models.",
   },
 ];
 
@@ -298,7 +298,7 @@ export default function SnowV2({}) {
 
         <section className="mb-8">
           <div className="container">
-            <h2 className="text-center">A Machine for the Extreme</h2>
+            <h2 className="text-center">Features Designed To Help</h2>
             <p className="text-center">
               All Cub Cadet X Series models come with premium features to get
               your winter done right.
