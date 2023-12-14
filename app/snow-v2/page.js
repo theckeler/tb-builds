@@ -334,57 +334,74 @@ export default function SnowV2({}) {
 
       <section className="container mb-4">
         <ul className="grid lg:grid-cols-3 gap-3">
-          <li className="">
-            <ResponsiveImage
-              src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/three-year.jpg"
+          <li>
+            {/* <ResponsiveImage
+              src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/three-year-2.jpg"
               id="three-year"
               className="w-full"
-            />
+            /> */}
+            <div className="relative bg-[#e41938]">
+              <div className="text-white uppercase flex justify-center items-center min-h-[300px] font-bold text-2xl py-24 mx-auto max-w-[180px] text-center">
+                3-Year Limited Warranty
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 334.01 272.03"
+                className="w-full h-full absolute top-0 left-0"
+              >
+                <path
+                  fill="#fff"
+                  d="M249.89 0c2.47 1.74 4.93 3.49 7.4 5.22 18.89 13.21 34.11 29.79 45.78 49.67 10.6 18.05 17.29 37.46 19.98 58.18 4.53 34.85-1.76 67.69-18.98 98.37-1.92 3.43-4.03 6.76-6.21 10.02-.49.74-1.65 1.46-2.5 1.46-19.75.09-39.51.08-59.27.07-.32 0-.63-.11-1.37-.25.5-.98.9-1.81 1.35-2.61 16.43-29.01 32.88-58.02 49.29-87.04 4.7-8.31 5.98-16.92 1.79-25.86-.54-1.14-1.28-2.19-2.13-3.6-3.42 4.91-6.59 9.45-9.98 14.32-.65-.83-1.18-1.39-1.6-2.03-12.17-18.57-24.34-37.14-36.48-55.73-5.87-8.98-11.6-18.05-17.52-27-5.47-8.28-12.88-13.4-23.17-13.46-.33 0-.66.02-.98.06-.15.02-.29.11-.79.32 2.41 4.54 4.81 9.06 7.41 13.95-1.18.09-2.03.22-2.89.22-30.08 0-60.17-.08-90.25.06-4.53.02-9.23.49-13.55 1.75-7.11 2.07-12.46 6.64-15.73 14.05h16.19c-1.36 2.76-2.45 5-3.57 7.22-10.5 20.76-20.99 41.52-31.52 62.27-3.15 6.21-6.42 12.35-9.61 18.54-4.42 8.59-5.34 17.29-.71 26.13.4.77.97 1.46 1.65 2.45l8.44-13.49c.76.96 1.35 1.59 1.82 2.3 12.82 19.42 25.64 38.84 38.43 58.27 4.28 6.5 8.46 13.06 12.75 19.56 5 7.59 11.77 12.44 21.05 13.26 1.18.1 2.37.01 4.02.01-2.6-4.91-4.95-9.34-7.52-14.19h158.8c-.99 1.27-1.65 2.16-2.37 3-12.34 14.62-26.91 26.55-43.55 35.96-.28.16-.52.38-.78.58H91.5c-7.51-5.11-15.33-9.82-22.46-15.42-22.5-17.68-38.76-40.15-48.78-66.89-12.07-32.2-13.66-65.03-4.22-98.23C26.37 55.17 47.19 26.34 78.06 4.7c2.2-1.54 4.36-3.13 6.55-4.7h165.28z"
+                />
+              </svg>
+            </div>
             <div className="bg-neutral-100 p-2">
               <div className="font-bold text-lg text-center mb-1">
-                Lorem ipsum dolor sit amet
+                BUILT FOR LIFE®
               </div>
-              <div>
-                Vivamus non dignissim arcu. Quisque venenatis metus at neque
-                bibendum placerat. Nulla non turpis eu lorem volutpat tristique.
-                Nam convallis congue magna ut ultricies. Cras posuere ligula non
-                tortor pulvinar varius.
+              <div className="text-center">
+                Troy-bilt® offers rugged, reliable equipment with a network of
+                service dealers across the county and bilingual support
               </div>
             </div>
           </li>
           <li className="">
-            <ResponsiveImage
-              src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/five-years.jpg"
-              id="five-year"
-              className="w-full"
-            />
+            <div className="relative bg-[#e41938]">
+              <div className="text-white uppercase flex justify-center items-center min-h-[300px] flex-col text-2xl py-22 mx-auto text-center">
+                <span className="font-bold text-7xl">5-Year</span>
+                <span className="font-bold text-3xl">Limited warranty</span>
+                <span>on auger gearbox</span>
+              </div>
+            </div>
             <div className="bg-neutral-100 p-2">
               <div className="font-bold text-lg text-center mb-1">
-                Lorem ipsum dolor sit amet
+                BUILT FOR LIFE®
               </div>
-              <div>
-                Vivamus non dignissim arcu. Quisque venenatis metus at neque
-                bibendum placerat. Nulla non turpis eu lorem volutpat tristique.
-                Nam convallis congue magna ut ultricies. Cras posuere ligula non
-                tortor pulvinar varius.
+              <div className="text-center">
+                Troy-bilt® offers rugged, reliable equipment with a network of
+                service dealers across the county and bilingual support
               </div>
             </div>
           </li>
-          <li className="">
-            <ResponsiveImage
-              src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/clearing.jpg"
-              id="clearing"
-              className="w-full"
-            />
-            <div className="bg-neutral-100 p-2">
-              <div className="font-bold text-lg text-center mb-1">
-                Lorem ipsum dolor sit amet
+          <li className="flex flex-col">
+            <div className="relative bg-[#e41938]">
+              <div className="text-white uppercase flex justify-center items-center min-h-[300px] font-bold text-2xl py-24 mx-auto max-w-[180px] text-center">
+                Limited lifetime warranty
               </div>
-              <div>
-                Vivamus non dignissim arcu. Quisque venenatis metus at neque
-                bibendum placerat. Nulla non turpis eu lorem volutpat tristique.
-                Nam convallis congue magna ut ultricies. Cras posuere ligula non
-                tortor pulvinar varius.
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 334.01 272.03"
+                className="w-full h-full absolute top-0 left-0"
+              >
+                <path
+                  fill="#fff"
+                  d="M249.89 0c2.47 1.74 4.93 3.49 7.4 5.22 18.89 13.21 34.11 29.79 45.78 49.67 10.6 18.05 17.29 37.46 19.98 58.18 4.53 34.85-1.76 67.69-18.98 98.37-1.92 3.43-4.03 6.76-6.21 10.02-.49.74-1.65 1.46-2.5 1.46-19.75.09-39.51.08-59.27.07-.32 0-.63-.11-1.37-.25.5-.98.9-1.81 1.35-2.61 16.43-29.01 32.88-58.02 49.29-87.04 4.7-8.31 5.98-16.92 1.79-25.86-.54-1.14-1.28-2.19-2.13-3.6-3.42 4.91-6.59 9.45-9.98 14.32-.65-.83-1.18-1.39-1.6-2.03-12.17-18.57-24.34-37.14-36.48-55.73-5.87-8.98-11.6-18.05-17.52-27-5.47-8.28-12.88-13.4-23.17-13.46-.33 0-.66.02-.98.06-.15.02-.29.11-.79.32 2.41 4.54 4.81 9.06 7.41 13.95-1.18.09-2.03.22-2.89.22-30.08 0-60.17-.08-90.25.06-4.53.02-9.23.49-13.55 1.75-7.11 2.07-12.46 6.64-15.73 14.05h16.19c-1.36 2.76-2.45 5-3.57 7.22-10.5 20.76-20.99 41.52-31.52 62.27-3.15 6.21-6.42 12.35-9.61 18.54-4.42 8.59-5.34 17.29-.71 26.13.4.77.97 1.46 1.65 2.45l8.44-13.49c.76.96 1.35 1.59 1.82 2.3 12.82 19.42 25.64 38.84 38.43 58.27 4.28 6.5 8.46 13.06 12.75 19.56 5 7.59 11.77 12.44 21.05 13.26 1.18.1 2.37.01 4.02.01-2.6-4.91-4.95-9.34-7.52-14.19h158.8c-.99 1.27-1.65 2.16-2.37 3-12.34 14.62-26.91 26.55-43.55 35.96-.28.16-.52.38-.78.58H91.5c-7.51-5.11-15.33-9.82-22.46-15.42-22.5-17.68-38.76-40.15-48.78-66.89-12.07-32.2-13.66-65.03-4.22-98.23C26.37 55.17 47.19 26.34 78.06 4.7c2.2-1.54 4.36-3.13 6.55-4.7h165.28z"
+                />
+              </svg>
+            </div>
+            <div className="bg-neutral-100 p-2 grow">
+              <div className="text-center">
+                On models with extended chute design
               </div>
             </div>
           </li>
