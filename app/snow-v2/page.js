@@ -121,17 +121,17 @@ const compare = [
     row: [
       { copy: "Available Snow Blower Features" },
       {
-        logo: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/logo-1x.svg",
+        title: "Single-Stage",
         img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/icon-snowfall-up-6.svg",
         copy: "Light Snowfall<br> Moderate Use",
       },
       {
-        logo: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/logo-2x.svg",
+        title: "Two-Stage",
         img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/icon-snowfall-up-18.svg",
         copy: "Moderate Snowfall<br> Moderate Use",
       },
       {
-        logo: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/logo-3x.svg",
+        title: "Three-Stage",
         img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/icon-snowfall-up-23.svg",
         copy: "Heavy Snowfall<br> Frequent Use",
       },
@@ -143,7 +143,7 @@ const compare = [
         copy: "Push-button electric start comes equipped on all models",
         sub: false,
       },
-      { active: true },
+      { active: false },
       { active: true },
       { active: true },
     ],
@@ -181,23 +181,12 @@ const compare = [
   {
     row: [
       {
-        copy: "LED light bar for visibility before and after dawn",
+        copy: "LED headlight for visibility before and after dawn",
         sub: false,
       },
       { active: false },
       { active: true },
       { active: true },
-    ],
-  },
-  {
-    row: [
-      {
-        copy: "IntelliPower<sup>®</sup> for more available engine power to tackle heavy and wet snow",
-        sub: false,
-      },
-      { active: false },
-      { active: true },
-      { active: false },
     ],
   },
   {
@@ -208,20 +197,20 @@ const compare = [
       },
       { active: false },
       { active: true },
-      { active: true },
+      { active: false },
     ],
   },
-  {
-    row: [
-      {
-        copy: "Backed by our limited residential warranty",
-        sub: "See brochure for full warranty information",
-      },
-      { copy: "3-Year", className: "font-bold" },
-      { copy: "5-Year", className: "font-bold" },
-      { copy: "5-Year", className: "font-bold" },
-    ],
-  },
+  // {
+  //   row: [
+  //     {
+  //       copy: "Backed by our limited warranty",
+  //       sub: "See brochure for full warranty information",
+  //     },
+  //     { copy: "3-Year", className: "font-bold" },
+  //     { copy: "5-Year", className: "font-bold" },
+  //     { copy: "5-Year", className: "font-bold" },
+  //   ],
+  // },
 ];
 
 export default function SnowV2({}) {
@@ -300,8 +289,8 @@ export default function SnowV2({}) {
           <div className="container">
             <h2 className="text-center">Features Designed To Help</h2>
             <p className="text-center">
-              All Cub Cadet X Series models come with premium features to get
-              your winter done right.
+              Troy-Bilt snow blowers come with features designed to help you
+              clear snow efficiently.
             </p>
             <ul className="grid gap-4 lg:grid-cols-2 mt-6">
               {machineExtreme.map((block, i) => (
@@ -342,6 +331,65 @@ export default function SnowV2({}) {
           </div>
         </section>
       </div>
+
+      <section className="container mb-4">
+        <ul className="grid lg:grid-cols-3 gap-3">
+          <li className="">
+            <ResponsiveImage
+              src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/three-year.jpg"
+              id="three-year"
+              className="w-full"
+            />
+            <div className="bg-neutral-100 p-2">
+              <div className="font-bold text-lg text-center mb-1">
+                Lorem ipsum dolor sit amet
+              </div>
+              <div>
+                Vivamus non dignissim arcu. Quisque venenatis metus at neque
+                bibendum placerat. Nulla non turpis eu lorem volutpat tristique.
+                Nam convallis congue magna ut ultricies. Cras posuere ligula non
+                tortor pulvinar varius.
+              </div>
+            </div>
+          </li>
+          <li className="">
+            <ResponsiveImage
+              src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/five-years.jpg"
+              id="five-year"
+              className="w-full"
+            />
+            <div className="bg-neutral-100 p-2">
+              <div className="font-bold text-lg text-center mb-1">
+                Lorem ipsum dolor sit amet
+              </div>
+              <div>
+                Vivamus non dignissim arcu. Quisque venenatis metus at neque
+                bibendum placerat. Nulla non turpis eu lorem volutpat tristique.
+                Nam convallis congue magna ut ultricies. Cras posuere ligula non
+                tortor pulvinar varius.
+              </div>
+            </div>
+          </li>
+          <li className="">
+            <ResponsiveImage
+              src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/clearing.jpg"
+              id="clearing"
+              className="w-full"
+            />
+            <div className="bg-neutral-100 p-2">
+              <div className="font-bold text-lg text-center mb-1">
+                Lorem ipsum dolor sit amet
+              </div>
+              <div>
+                Vivamus non dignissim arcu. Quisque venenatis metus at neque
+                bibendum placerat. Nulla non turpis eu lorem volutpat tristique.
+                Nam convallis congue magna ut ultricies. Cras posuere ligula non
+                tortor pulvinar varius.
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
 
       <section>
         <div
@@ -509,12 +557,12 @@ export default function SnowV2({}) {
               answer: `<a href="https://www.troybilt.com/en_US/snow-blowers">Troy-Bilt snow blowers</a> are engineered to remove snow from unwanted areas quickly. A snow blower can help make snow removal easy by reducing the heavy lifting and repetitive strain that comes with shoveling snow. The various stages of snow blowers signify the steps a snow blower goes through to clear the snow.`,
             },
             {
-              question: "What is the best type of snow blower for a driveway?",
-              answer: `There’s no one-size-fits-all snow blower. Troy-Bilt has models ideal for up to <a href="https://www.troybilt.com/en_US/snow-blowers/single-stage-snow-blowers">6-in</a></a>, <a href="https://www.troybilt.com/en_US/snow-blowers/two-stage-snow-blowers">12-in</a>, and <a href="https://www.troybilt.com/en_US/snow-blowers/three-stage-snow-blowers">18-in</a>. of snowfall, so consider how much snow is expected in your area to narrow down your selection. Another consideration is the type of terrain snow will be cleared from such as gravel surfaces, cracked pavement or smooth surfaces. From there, determine what kind of features you’d benefit from, such as trigger control power steering, electric start, <a href="https://www.troybilt.com/en_US/snow-blower-attachments?prefn1=universal-part-category&prefv1=Heated%20Hand%20Grips">heated hand grips</a>, among other options. This <a href="https://www.troybilt.com/en_US/troy-bilt-snow-blower-buying-guide.html">snow blower buyer’s guide</a> goes into more detail or use our <a href="https://www.troybilt.com/en_US/product-finder-snow-blowers-tb.html">snow blower product</a> finder for additional guidance.`,
+              question: "What is the ideal type of snow blower for a driveway?",
+              answer: `There’s no one-size-fits-all snow blower. Troy-Bilt has models ideal for up to <a href="https://www.troybilt.com/en_US/snow-blowers/single-stage-snow-blowers">6-in</a></a>, <a href="https://www.troybilt.com/en_US/snow-blowers/two-stage-snow-blowers">12-in</a>, and <a href="https://www.troybilt.com/en_US/snow-blowers/three-stage-snow-blowers">18-in</a>. of snowfall, so consider how much snow is expected in your area to narrow down your selection. Another consideration is the type of terrain snow will be cleared from such as gravel surfaces, cracked pavement or smooth surfaces. From there, determine what kind of features you’d benefit from, such as trigger control power steering, electric start, or <a href="https://www.troybilt.com/en_US/snow-blower-attachments?prefn1=universal-part-category&prefv1=Heated%20Hand%20Grips">heated hand grips</a>, among other options. This <a href="https://www.troybilt.com/en_US/troy-bilt-snow-blower-buying-guide.html">snow blower buyer’s guide</a> goes into more detail or use our <a href="https://www.troybilt.com/en_US/product-finder-snow-blowers-tb.html">snow blower product</a> finder for additional guidance.`,
             },
             {
               question: "Do I need a single, two, or three-stage snow blower?",
-              answer: `There are three types of snow blowers. The more stages, the more snow the machine can handle (when compared to a comparable model). Troy-Bilt <a href="https://www.troybilt.com/en_US/snow-blowers/single-stage-snow-blowers">Single-Stage Snow Blowers</a> are ideal for up to 6-inches of snowfall, <a href="https://www.troybilt.com/en_US/snow-blowers/two-stage-snow-blowers">Two-Stage Snow Blowers</a> are great for up to 12-inches of snowfall and <a href="https://www.troybilt.com/en_US/snow-blowers/three-stage-snow-blowers">Three-Stage Snow Blowers</a> can handle up to 18-inches of snowfall. Single-stage snow blowers are ideal for smaller jobs like walkways and short driveways. They are light, compact and easy to handle.  Troy-Bilt single-stage snow blowers are light, compact and easy to handle. But if you get more snow, have unpaved surfaces with inclines or a longer driveway, you’ll want to consider a 2-stage or 3-stage snow blower that will help clear larger volumes in larger areas. This <a href="https://www.troybilt.com/en_US/troy-bilt-snow-blower-buying-guide.html">snow blower buyer’s guide</a> goes into more detail or use our <a href="https://www.troybilt.com/en_US/product-finder-snow-blowers-tb.html">snow blower product finder</a> for additional guidance.`,
+              answer: `There are three types of snow blowers. The more stages, the more snow the machine can handle (when compared to a comparable model). Troy-Bilt <a href="https://www.troybilt.com/en_US/snow-blowers/single-stage-snow-blowers">Single-Stage Snow Blowers</a> are ideal for up to 6-inches of snowfall, <a href="https://www.troybilt.com/en_US/snow-blowers/two-stage-snow-blowers">Two-Stage Snow Blowers</a> are great for up to 12-inches of snowfall and <a href="https://www.troybilt.com/en_US/snow-blowers/three-stage-snow-blowers">Three-Stage Snow Blowers</a> can handle up to 18-inches of snowfall. Single-stage snow blowers are ideal for smaller jobs like walkways and short driveways. Troy-Bilt single-stage snow blowers are light, compact and easy to handle. But if you get more snow, have unpaved surfaces with inclines or a longer driveway, you’ll want to consider a 2-stage or 3-stage snow blower that will help clear larger volumes in larger areas. This <a href="https://www.troybilt.com/en_US/troy-bilt-snow-blower-buying-guide.html">snow blower buyer’s guide</a> goes into more detail or use our <a href="https://www.troybilt.com/en_US/product-finder-snow-blowers-tb.html">snow blower product finder</a> for additional guidance.`,
             },
             {
               question: "How do I finance a Troy-Bilt snow blower?",
