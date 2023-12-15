@@ -69,7 +69,7 @@ const popularHelpLinks = {
     },
     {
       icon: <IconAwards className="w-full h-[100px]" />,
-      copy: "Find warranty information and extended plans",
+      copy: "Find warranty information",
       button: [
         {
           href: "https://www.troybilt.com/en_US/warranty-details.html",
