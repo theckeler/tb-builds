@@ -8,6 +8,9 @@ export default function CompareRow({ block, numRows, rowNum }) {
   return (
     <>
       {block.row.map((block, i) => {
+        console.log(block.asterisk);
+        const rowCopy = `${block.copy}${block.asterisk ? "*" : ""}`;
+
         return (
           <li
             className={`flex flex-col justify-center p-2 border-neutral-400 ${
@@ -45,7 +48,7 @@ export default function CompareRow({ block, numRows, rowNum }) {
                   !!block.className && block.className
                 }`}
                 dangerouslySetInnerHTML={{
-                  __html: block.copy,
+                  __html: rowCopy,
                 }}
               />
             )}

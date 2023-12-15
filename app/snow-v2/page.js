@@ -69,7 +69,7 @@ const lineup = [
     img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/Troy-Bilt_Vortex%202610_13.jpg",
     alt: "Man walking behind Troy-Bilt three-stage, heavy duty snow blower clearing sidewalk of snow",
     title: "Three-Stage Snow Blowers",
-    copy: "These powerful machines crush snow and ice with a third-stage accelerator and come equipped with a heavy duty, fully sealed gearbox and large, powerful engines to take on heavy snow.",
+    copy: "These powerful machines crush snow and ice with a third-stage accelerator and come equipped with large, powerful engines to take on heavy snow.",
     engFor: [
       {
         title: "Snowfall",
@@ -150,7 +150,7 @@ const compare = [
   },
   {
     row: [
-      { copy: "Heavy-duty gearbox for durability" },
+      { copy: "Heavy-duty gearbox for durability", asterisk: true },
       { active: false },
       { active: true },
       { active: true },
@@ -161,6 +161,7 @@ const compare = [
       {
         copy: "Trigger-control power steering for easy maneuverability",
         sub: false,
+        asterisk: true,
       },
       { active: false },
       { active: true },
@@ -172,6 +173,7 @@ const compare = [
       {
         copy: "Heated hand grips for comfortable operation",
         sub: false,
+        asterisk: true,
       },
       { active: false },
       { active: true },
@@ -183,6 +185,7 @@ const compare = [
       {
         copy: "LED headlight for visibility before and after dawn",
         sub: false,
+        asterisk: true,
       },
       { active: false },
       { active: true },
@@ -240,7 +243,7 @@ export default function SnowV2({}) {
           <div className="relative min-h-[600px]">
             <ResponsiveImage
               id="hero"
-              src="https://outdoorecommassets.sbdcdn.sbd-prod.com//ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/PLLSNOW_StormTracker2690_desktop_1540x630.jpg"
+              src="https://outdoorecommassets.sbdcdn.sbd-prod.com//ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/31AM5FP4B66_Storm2890_env4.jpg"
               alt="Person walking behind a Troy-Bilt gas powered snow blower clearing their driveway"
               className="h-full w-full position-absolute object-cover top-0 left-0"
               hero
@@ -311,7 +314,7 @@ export default function SnowV2({}) {
         <section className="mb-6">
           <div className="container">
             <h2 className="text-center">
-              Shop and Compare X Series Snow Blowers
+              Shop and Compare Troy-Bilt Snow Blowers
             </h2>
 
             <div className="max-w-screen overflow-x-auto">
@@ -327,6 +330,9 @@ export default function SnowV2({}) {
                   );
                 })}
               </ul>
+              <div className="text-center text-sm mt-2">
+                *Select models only
+              </div>
             </div>
           </div>
         </section>
@@ -579,7 +585,7 @@ export default function SnowV2({}) {
             },
             {
               question: "Do I need a single, two, or three-stage snow blower?",
-              answer: `There are three types of snow blowers. The more stages, the more snow the machine can handle (when compared to a comparable model). Troy-Bilt <a href="https://www.troybilt.com/en_US/snow-blowers/single-stage-snow-blowers">Single-Stage Snow Blowers</a> are ideal for up to 6-inches of snowfall, <a href="https://www.troybilt.com/en_US/snow-blowers/two-stage-snow-blowers">Two-Stage Snow Blowers</a> are great for up to 12-inches of snowfall and <a href="https://www.troybilt.com/en_US/snow-blowers/three-stage-snow-blowers">Three-Stage Snow Blowers</a> can handle up to 18-inches of snowfall. Single-stage snow blowers are ideal for smaller jobs like walkways and short driveways. Troy-Bilt single-stage snow blowers are light, compact and easy to handle. But if you get more snow, have unpaved surfaces with inclines or a longer driveway, you’ll want to consider a 2-stage or 3-stage snow blower that will help clear larger volumes in larger areas. This <a href="https://www.troybilt.com/en_US/troy-bilt-snow-blower-buying-guide.html">snow blower buyer’s guide</a> goes into more detail or use our <a href="https://www.troybilt.com/en_US/product-finder-snow-blowers-tb.html">snow blower product finder</a> for additional guidance.`,
+              answer: `There are three types of snow blowers. The more stages, the more snow the machine can handle (when compared to a comparable model). Troy-Bilt <a href="https://www.troybilt.com/en_US/snow-blowers/single-stage-snow-blowers">Single-Stage Snow Blowers</a> are ideal for up to 6-inches of snowfall, <a href="https://www.troybilt.com/en_US/snow-blowers/two-stage-snow-blowers">Two-Stage Snow Blowers</a> are great for up to 12-inches of snowfall and <a href="https://www.troybilt.com/en_US/snow-blowers/three-stage-snow-blowers">Three-Stage Snow Blowers</a> are recommended for up to 18-inches of snowfall. Single-stage snow blowers are ideal for smaller jobs like walkways and short driveways. Troy-Bilt single-stage snow blowers are light, compact and easy to handle. But if you get a lot of snow, have unpaved surfaces with inclines or a longer driveway, you’ll want to consider a 2-stage or 3-stage snow blower that will help clear larger volumes in larger areas.  This <a href="https://www.troybilt.com/en_US/troy-bilt-snow-blower-buying-guide.html">snow blower buyer’s guide</a> goes into more detail or use our <a href="https://www.troybilt.com/en_US/product-finder-snow-blowers-tb.html">snow blower product finder</a> for additional guidance.`,
             },
             {
               question: "How do I finance a Troy-Bilt snow blower?",
