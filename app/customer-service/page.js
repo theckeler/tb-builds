@@ -16,22 +16,22 @@ const howToContent = {
     {
       icon: <IconBelt className="w-full max-h-[80px] h-full" />,
       title: "How to Change the Deck Belt on a Riding Mower",
-      href: "https://www.cubcadet.com/en_US/how-to/knowledge-how-to-change-the-pto-belt-on-a-cub-cadet-rider.html",
+      href: "https://www.troybilt.com/en_US/knowledge-tb-how-to-change-the-deck-belt-on-a-troy-bilt-riding-mower.html",
     },
     {
       icon: <IconBlades className="w-full h-full" />,
       title: "How to Change the Blades on a Riding Mower",
-      href: "https://www.cubcadet.com/en_US/how-to/knowledge-how-to-change-the-blade-on-your-cub-cadet-rider.html",
+      href: "https://www.troybilt.com/en_US/knowledge-tb-how-to-change-the-blade-on-your-troy-bilt-rider.html",
     },
     {
       icon: <IconLevel className="w-full max-h-[50px] h-full" />,
       title: "How to Level the Deck on a Riding Mower",
-      href: "https://www.cubcadet.com/en_US/knowledge-center/knowledge-how-to-level-the-deck-on-your-cub-cadet-rider.html",
+      href: "https://www.troybilt.com/en_US/How+Do+I+Level+the+Deck+on+My+Riding+Mower%3F.html",
     },
   ],
   button: {
     copy: "See all how-to content",
-    url: "https://www.cubcadet.com/en_US/how-to/",
+    url: "https://www.troybilt.com/en_US/knowledge-center/",
   },
 };
 
@@ -42,7 +42,7 @@ const popularHelpLinks = {
       copy: "Search parts for your machine or view diagrams",
       button: [
         {
-          href: "https://www.cubcadet.com/en_US/service-and-parts",
+          href: "https://www.troybilt.com/en_US/service-and-parts",
           copy: "Find parts",
         },
       ],
@@ -52,7 +52,7 @@ const popularHelpLinks = {
       copy: "Use your model number to download your Operator’s Manual",
       button: [
         {
-          href: "https://www.cubcadet.com/en_US/operatorsmanuals",
+          href: "https://www.troybilt.com/en_US/operatorsmanuals",
           copy: "Find manuals",
         },
       ],
@@ -62,7 +62,7 @@ const popularHelpLinks = {
       copy: "Find a licensed mechanic at a service center near you ",
       button: [
         {
-          href: "https://www.cubcadet.com/en_US/servicelocator",
+          href: "https://www.troybilt.com/on/demandware.store/Sites-troybilt-Site/en_US/Stores-FindService",
           copy: "Find service",
         },
       ],
@@ -72,13 +72,13 @@ const popularHelpLinks = {
       copy: "Find warranty information and extended plans",
       button: [
         {
-          href: "https://www.cubcadet.com/en_US/warranty-faqs.html",
+          href: "https://www.troybilt.com/en_US/warranty-details.html",
           copy: "Warranty FAQs",
         },
-        {
-          href: "https://www.cubcadet.com/en_US/ew-info-page.html",
-          copy: "Extended Warranty",
-        },
+        // {
+        //   href: "https://www.cubcadet.com/en_US/ew-info-page.html",
+        //   copy: "Extended Warranty",
+        // },
       ],
       // href: "https://www.cubcadet.com/en_US/warranty-faqs.html",
       // button: {
@@ -92,52 +92,52 @@ const findSupport = {
   h2: "Find Support by Model",
   blocks: [
     {
-      img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/customer-service/Cub-Cadet_XT1LT46_New_2000x2000_8.jpg",
-      id: "Cadet_XT1LT46_New_2000x2000_8",
+      img: "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw26941dc0/products/Equipment/Troy-Bilt_Bronco46K_2000x2000_1.jpg",
+      id: "Bilt_Bronco46K_2000x2000_1",
       title: "Lawn Mowers",
-      url: "https://www.cubcadet.com/en_US/how-to/?crefn1=tags&crefv1=Lawn%20%26%20Garden%20Tractors",
+      url: "https://www.troybilt.com/en_US/riding-mower/",
     },
     {
-      img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/customer-service/product-ZTS.jpg?version=1,639,577,713,000",
-      id: "product-ZTS",
+      img: "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwc4e99be2/products/Equipment/Troy-Bilt_MustangZ54_2000x2000_6.jpg",
+      id: "Bilt_MustangZ54_2000x2000_6",
       title: "Zero-Turn",
-      url: "https://www.cubcadet.com/en_US/how-to/?crefn1=tags&crefv1=Zero%20Turn%20Mowers",
+      url: "https://www.troybilt.com/en_US/riding-lawn-mowers/zero-turn-mowers",
     },
     {
-      img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/customer-service/product-ZT-el.jpg?version=1,639,577,700,000",
-      id: "product-ZT-el",
-      title: "Electric",
-      url: "https://www.cubcadet.com/en_US/electric-mowers-and-tools",
+      img: "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw93aa9e08/products/Equipment/Troy-Bilt_TB230BXP_2000x2000_6.jpg",
+      id: "Bilt_TB230BXP_2000x2000_6",
+      title: "Walk-Behind Mowers",
+      url: "https://www.troybilt.com/en_US/walk-behind-mower/",
     },
     {
-      img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/customer-service/Cub-Cadet_ProZ_972SD_1.jpg?sw=550&sh=550&sm=fit",
+      img: "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw853c35dc/products/Equipment/Troy-Bilt_SuperBroncoCRT_2000x2000_10.jpg",
       id: "Cadet_ProZ_972SD_1",
-      title: "Professional",
-      url: "https://www.cubcadet.com/en_US/commercial-equipment",
+      title: "Tillers",
+      url: "https://www.troybilt.com/en_US/tillers/",
     },
     {
-      img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/customer-service/Cub-Cadet_3X_30HD_3.jpg?sw=290&sh=290&sm=fit",
-      title: "Snow",
-      id: "Cadet_3X_30HD_3",
-      url: "https://www.cubcadet.com/en_US/how-to/?crefn1=tags&crefv1=Snow%20Blowers",
-    },
-    {
-      img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/customer-service/37DZ7CKK710_MX550_H.jpg?sw=290&sh=290&sm=fit",
+      img: "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwe732a9dd/products/Equipment/Troy-Bilt_CSV070B_3.jpg",
       id: "MX550",
-      title: "UTV",
-      url: "https://www.cubcadet.com/en_US/utility-vehicles",
+      title: "Chipper Shredders",
+      url: "https://www.troybilt.com/en_US/chipper-shredders/",
     },
     {
-      img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/customer-service/Cub_Cadet_CS16E_2000x2000_4.jpg?sw=1000&sh=1000&sm=fit",
+      img: "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dw87e9edff/products/Equipment/Troy-Bilt_TB51BP_2000x2000_1.jpg",
+      title: "Leaf Blowers",
+      id: "Cadet_3X_30HD_3",
+      url: "https://www.troybilt.com/en_US/leaf-blowers/",
+    },
+    {
+      img: "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwad09d29f/products/Equipment/Troy-Bilt_Vortex%202610_13.jpg",
       id: "Cub_Cadet_CS16E_2000x2000_4",
-      title: "Chore & Handheld",
-      url: "https://www.cubcadet.com/en_US/how-to/?crefn1=tags&crefv1=Yard%20Equipment",
+      title: "Snow",
+      url: "https://www.troybilt.com/en_US/snow-how-to/",
     },
     {
-      img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/customer-service/19A30018100.jpg",
+      img: "https://www.troybilt.com/dw/image/v2/BCSH_PRD/on/demandware.static/-/Sites-mtd-master-catalog/default/dwede3d406/products/Attachments_Accessories/19A30031OEM_1.jpg",
       id: "CC19A30018100",
       title: "Attachments",
-      url: "https://www.cubcadet.com/en_US/riding-lawn-mowers/riding-mower-accessories",
+      url: "https://www.troybilt.com/en_US/service-and-parts#attachments",
     },
   ],
 };
@@ -145,16 +145,15 @@ const findSupport = {
 export default function CustomerService({}) {
   return (
     <div id="sdb-container">
-      <section
-        className="section-1"
-        style={{ background: "rgb(255, 194, 15)" }}
-      >
+      <section className="bg-[#c00] mt-6">
         <div className="container px-3 py-4">
-          <h1 className="text-center mb-0">Cub Cadet Customer Service</h1>
-          <p className="mt-2 mb-0 text-center">
-            We provide value to our Cub Cadet owners with support content to
+          <h1 className="text-center mb-0 text-white text-5xl">
+            Help & Support
+          </h1>
+          <p className="mt-2 mb-0 text-center text-white max-w-3xl mx-auto">
+            We provide value to our Troy-Bilt owners with support content to
             help you feel confident to tackle simple tasks or advice to extend
-            the lifetime of your machine.
+            the lifetime of your machine
           </p>
         </div>
       </section>
@@ -200,7 +199,7 @@ export default function CustomerService({}) {
           <ul className="grid gap-3 lg:grid-cols-2 justify-content-center">
             <li className=" p-6 h-100 bg-neutral-100">
               <form
-                action="https://www.cubcadet.com/on/demandware.store/Sites-cubcadet-Site/en_US/Order-Track"
+                action="https://www.troybilt.com/en_US/track-my-order"
                 className="h-full flex flex-col"
                 method="GET"
                 name="trackorder-form"
@@ -213,7 +212,7 @@ export default function CustomerService({}) {
                 </p>
                 <div className="mt-auto">
                   <a
-                    href="https://www.cubcadet.com/en_US/track-my-order"
+                    href="https://www.troybilt.com/en_US/track-my-order"
                     className="button text-uppercase font-weight-bold text-decoration-none d-inline-block btn btn-secondary btn-pf-search mt-auto py-2 px-5 border-0 w-100"
                     style={{ padding: "0.625rem 2.5rem" }}
                   >
@@ -224,10 +223,11 @@ export default function CustomerService({}) {
             </li>
             <li className="flex flex-col p-6 h-100 bg-neutral-100">
               <form
-                action="https://www.cubcadet.com/en_US/service-and-parts#part-finder"
-                className="flex flex-col h-100"
+                action="/on/demandware.store/Sites-troybilt-Site/en_US/Search-Show"
+                className="needs-validation flex flex-col h-100"
                 method="get"
                 name="simpleSearch"
+                novalidate=""
                 role="search"
               >
                 <h2 className="text-center">Find Support by Model</h2>
@@ -263,7 +263,7 @@ export default function CustomerService({}) {
                   id="find-model-number"
                 >
                   <img
-                    src="https://www.cubcadet.com/on/demandware.static/-/Sites-cubcadet-Library/default/dw3bde9ca9/Service%20and%20Parts/How%20to%20Find%20Model%20Number/Find_Model_Number_Cub_Cadet.jpg"
+                    src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/customer-service/Find_Model_Number_Troy_Bilt.jpg"
                     alt=""
                     className="ml-auto mr-auto"
                   />
@@ -287,20 +287,22 @@ export default function CustomerService({}) {
 
       <section className="py-5 px-3 bg-neutral-800">
         <div className="container mx-auto text-white">
-          <h2 className="text-center">Don&apos;t have an account?</h2>
+          <h2 className="text-center text-white">
+            Don&apos;t have an account?
+          </h2>
           <div className="text-center lg:px-32">
             Find information related to your mower with ease when you{" "}
             <a
-              href="https://www.cubcadet.com/en_US/login"
-              style={{ color: "#ffc20f" }}
+              href="https://www.troybilt.com/en_US/login"
+              style={{ color: "#fff" }}
               className="font-bold"
             >
               create an account
             </a>{" "}
             and{" "}
             <a
-              href="https://www.cubcadet.com/en_US/content-asset-page-includes/registration.html"
-              style={{ color: "#ffc20f" }}
+              href="https://www.troybilt.com/en_US/registration.html"
+              style={{ color: "#fff" }}
               className="font-bold"
             >
               register your mower
@@ -314,7 +316,7 @@ export default function CustomerService({}) {
 
       <section className="py-4">
         <div className="container px-3 py-6">
-          <h2 className="text-center mb-3">Popular Help Links</h2>
+          <h2 className="text-center mb-3 ">Popular Help Links</h2>
           <ul className="grid gap-3 md:grid-cols-2 lg:grid-cols-4">
             {popularHelpLinks.blocks.map(({ href, copy, icon, button }, i) => {
               return (
@@ -376,25 +378,23 @@ export default function CustomerService({}) {
         </div>
       </section>
 
-      <section
-        className="section-7 py-5"
-        style={{ background: "rgb(255, 194, 15)" }}
-      >
+      <section className="section-7 py-5 bg-[#c00]">
         <div
           className="container"
           style={{ maxWidth: 700 }}
         >
-          <h2 className="text-center">
+          <h2 className="text-center text-white">
             Didn’t Find What You Were Looking For?
           </h2>
-          <p className="text-center">
+          <p className="text-center text-white">
             Our team is available between 8:30AM - 5:00PM ET, Monday-Friday.
           </p>
           <ul className="row list-unstyled mx-auto">
             <li className="d-flex flex-column quote col-12 col-sm-12 col-md-6 p-1">
               <div className="d-flex flex-column p-0">
-                <button
-                  className="d-flex justify-content-center align-items-center py-2 px-5 border-0"
+                <a
+                  href="tel:800-828-5500"
+                  className="d-flex justify-content-center align-items-center py-2 px-5 border-0 no-underline"
                   style={{
                     background: "rgb(0, 0, 0)",
                     color: "rgb(255, 255, 255)",
@@ -410,8 +410,8 @@ export default function CustomerService({}) {
                   >
                     <IconPhone className="fill-white" />
                   </span>
-                  877-428-2349
-                </button>
+                  800-828-5500
+                </a>
               </div>
             </li>
             <li className="d-flex flex-column quote col-12 col-sm-12 col-md-6 p-1">

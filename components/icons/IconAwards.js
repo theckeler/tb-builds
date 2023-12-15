@@ -23,7 +23,7 @@ export default function IconAwards({ className }) {
       />
       <path
         d="m71.558 1.866 60.1 35.5v73.5l-65.5 39.9-64.9-39.2v-71.5l60.2-38c3-1.9 6.9-2 10.1-.2z"
-        fill="#ffc20f"
+        fill="#c00"
       />
       <path
         d="m66.383 16.737 49.6 29.4v56.2l-49.8 30.5-49.3-30v-54.6l49.5-31.5z"
