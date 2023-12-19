@@ -140,10 +140,10 @@ const compare = [
   {
     row: [
       {
-        copy: "Push-button electric start comes equipped on all models",
+        copy: "Push-button electric start available",
         sub: false,
       },
-      { active: false },
+      { active: true },
       { active: true },
       { active: true },
     ],
@@ -341,11 +341,6 @@ export default function SnowV2({}) {
       <section className="container mb-4">
         <ul className="grid lg:grid-cols-3 gap-3">
           <li>
-            {/* <ResponsiveImage
-              src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/three-year-2.jpg"
-              id="three-year"
-              className="w-full"
-            /> */}
             <div className="relative bg-[#e41938]">
               <div className="text-white uppercase flex justify-center items-center min-h-[300px] font-bold text-2xl py-24 mx-auto max-w-[180px] text-center">
                 3-Year Limited Warranty
@@ -366,8 +361,7 @@ export default function SnowV2({}) {
                 BUILT FOR LIFE®
               </div>
               <div className="text-center">
-                Troy-bilt® offers rugged, reliable equipment with a network of
-                service dealers across the county and bilingual support
+                All Troy-Bilt snow blowers come with a 3 year-limited warranty.
               </div>
             </div>
           </li>
@@ -384,15 +378,15 @@ export default function SnowV2({}) {
                 BUILT FOR LIFE®
               </div>
               <div className="text-center">
-                Troy-bilt® offers rugged, reliable equipment with a network of
-                service dealers across the county and bilingual support
+                Available on select two and three-stage Troy-Bilt snow blowers.
               </div>
             </div>
           </li>
           <li className="flex flex-col">
             <div className="relative bg-[#e41938]">
-              <div className="text-white uppercase flex justify-center items-center min-h-[300px] font-bold text-2xl py-24 mx-auto max-w-[180px] text-center">
-                Limited lifetime warranty
+              <div className="text-white uppercase flex justify-center items-center min-h-[300px] font-bold flex-col text-2xl py-22 mx-auto max-w-[180px] text-center">
+                Limited Lifetime Warranty
+                <div className="text-xs">On Extended Polymer Chute</div>
               </div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -407,7 +401,8 @@ export default function SnowV2({}) {
             </div>
             <div className="bg-neutral-100 p-2 grow">
               <div className="text-center">
-                On models with extended chute design
+                Available on most Two-Stage and Three-Stage Troy-Bilt snow
+                blowers.
               </div>
             </div>
           </li>
