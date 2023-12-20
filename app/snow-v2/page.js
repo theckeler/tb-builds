@@ -69,7 +69,7 @@ const lineup = [
     img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/Troy-Bilt_Vortex%202610_13.jpg",
     alt: "Man walking behind Troy-Bilt three-stage, heavy duty snow blower clearing sidewalk of snow",
     title: "Three-Stage Snow Blowers",
-    copy: "These powerful machines crush snow and ice with a third-stage accelerator and come equipped with large, powerful engines to take on heavy snow.",
+    copy: "These powerful machines are designed to help tackle drifts and icy conditions with a center-mounted steel accelerator and powerful engines to take on winter conditions.",
     engFor: [
       {
         title: "Snowfall",
