@@ -119,7 +119,7 @@ const machineExtreme = [
 const compare = [
   {
     row: [
-      { copy: "Available Snow Blower Features" },
+      { copy: "Helpful Features To Consider*" },
       {
         title: "Single-Stage",
         img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/icon-snowfall-up-6.svg",
@@ -135,6 +135,17 @@ const compare = [
         img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/icon-snowfall-up-23.svg",
         copy: "Heavy Snowfall<br> Frequent Use",
       },
+    ],
+  },
+  {
+    row: [
+      {
+        copy: "Compact size for easy storage",
+        sub: false,
+      },
+      { active: true },
+      { active: false },
+      { active: false },
     ],
   },
   {
@@ -183,7 +194,7 @@ const compare = [
   {
     row: [
       {
-        copy: "LED headlight for visibility before and after dawn",
+        copy: "LED headlight helps provide visibility before and after dawn",
         sub: false,
         asterisk: true,
       },
@@ -203,17 +214,6 @@ const compare = [
       { active: false },
     ],
   },
-  // {
-  //   row: [
-  //     {
-  //       copy: "Backed by our limited warranty",
-  //       sub: "See brochure for full warranty information",
-  //     },
-  //     { copy: "3-Year", className: "font-bold" },
-  //     { copy: "5-Year", className: "font-bold" },
-  //     { copy: "5-Year", className: "font-bold" },
-  //   ],
-  // },
 ];
 
 export default function SnowV2({}) {
@@ -331,7 +331,8 @@ export default function SnowV2({}) {
                 })}
               </ul>
               <div className="text-center text-sm mt-2">
-                *Select models only
+                *Features available on select models. See product detail pages
+                for model specific availability
               </div>
             </div>
           </div>
@@ -357,9 +358,6 @@ export default function SnowV2({}) {
               </svg>
             </div>
             <div className="bg-neutral-100 p-2">
-              <div className="font-bold text-lg text-center mb-1">
-                BUILT FOR LIFE®
-              </div>
               <div className="text-center">
                 All Troy-Bilt snow blowers come with a 3 year-limited warranty.
               </div>
@@ -374,11 +372,9 @@ export default function SnowV2({}) {
               </div>
             </div>
             <div className="bg-neutral-100 p-2">
-              <div className="font-bold text-lg text-center mb-1">
-                BUILT FOR LIFE®
-              </div>
               <div className="text-center">
-                Available on select two and three-stage Troy-Bilt snow blowers.
+                Available on Arctic Storm™ and Vortex™ series of Troy-Bilt snow
+                blowers
               </div>
             </div>
           </li>
