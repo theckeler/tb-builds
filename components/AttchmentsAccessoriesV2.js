@@ -6,6 +6,7 @@ export default function AttchmentsAccessories({
   attAcc,
   viewAllLink,
   centerTitle,
+  soldSeparately = false,
 }) {
   return (
     <section className={className}>
@@ -15,6 +16,13 @@ export default function AttchmentsAccessories({
             {typeof attAcc.h2 !== undefined && attAcc.h2}
           </h2>
         </li>
+        {soldSeparately && (
+          <li>
+            <div className="ml-1 font-bold text-neutral-400">
+              (Sold Separately)
+            </div>
+          </li>
+        )}
         <li className="ml-2">
           <a
             href={viewAllLink}
