@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 
 import Articles from "@/components/ArticlesV2";
+import AttchmentsAccessories from "@/components/AttchmentsAccessoriesV2";
 import Faqs from "@/components/Faqs";
 import RelatedLinks from "@/components/RelatedLinks";
 import ResponsiveImage from "@/components/ResponsiveImage";
@@ -471,6 +472,45 @@ export default function SnowV2({}) {
         }}
         numRows={4}
         className="container mt-8"
+      />
+
+      <AttchmentsAccessories
+        viewAllLink="https://www.troybilt.com/en_US/snow-blower-attachments"
+        className="container mt-8"
+        imgType={imgType}
+        attAcc={{
+          h2: "Snow Blower Attachments & Accessories",
+          blocks: [
+            {
+              img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/490-241-0032.jpg",
+              title: "Universal Snow Blower Cab",
+              item: "490-241-0032",
+              price: "$132.99",
+              url: "https://www.troybilt.com/en_US/all-products/universal-snow-blower-cab/490-241-0032.html",
+            },
+            {
+              img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/490-290-0010_1.jpg",
+              title: "Snow Blower Cover",
+              item: "490-290-0010",
+              price: "$38.99",
+              url: "https://www.troybilt.com/en_US/snow-blower-attachments/snow-blower-cover/490-290-0010.html?fitsOnModel=false#start=3",
+            },
+            {
+              img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/HeatedGrips.jpg",
+              title: "Heated Hand Grips",
+              item: "753-08698A",
+              price: "$160.30",
+              url: "https://www.troybilt.com/en_US/snow-blower-attachments/heated-hand-grips-kit-2016---/753-08698A.html?fitsOnModel=false#start=15",
+            },
+            {
+              img: "https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/TROYBILT/snow-blowers/490-241-0028.jpg",
+              title: "Tire Chains",
+              // item: "753-08629A",
+              // price: "$135.89",
+              url: "https://www.troybilt.com/en_US/snow-blower-attachments?prefn1=universal-part-category&prefv1=Tire%20Chains",
+            },
+          ],
+        }}
       />
 
       <RelatedLinks
