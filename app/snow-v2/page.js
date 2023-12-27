@@ -256,7 +256,7 @@ export default function SnowV2({}) {
           <div className="wrapper text-center text-white p-2 lg:px-52 py-4 lg:py-10">
             <h2 className="text-white">Explore Snow Blowers</h2>
             <p className="lg:px-48 mt-1 lg:mt-4">
-              Whether you experience a light snowfall or a heavy story,
+              Whether you experience a light snowfall or a heavy snow,
               Troy-Bilt® is here to help with single-, two-, and three-stage gas
               powered snow blowers designed to help clear the way during winter.
               Our product finder can help you find the right snow blower for
