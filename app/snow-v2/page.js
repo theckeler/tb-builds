@@ -475,6 +475,7 @@ export default function SnowV2({}) {
       />
 
       <AttchmentsAccessories
+        centerTitle
         viewAllLink="https://www.troybilt.com/en_US/snow-blower-attachments"
         className="container mt-8"
         imgType={imgType}
