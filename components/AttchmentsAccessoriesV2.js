@@ -19,7 +19,7 @@ export default function AttchmentsAccessories({
         {soldSeparately && (
           <li>
             <div className="ml-1 font-bold text-neutral-400">
-              (Sold Separately)
+              (Each Sold Separately)
             </div>
           </li>
         )}
